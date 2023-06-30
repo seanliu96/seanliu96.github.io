@@ -1,0 +1,30 @@
+students:
+  - name: "MSBD5018H: Natural Language Processing"
+    time: "Spring 2022"
+    place: "HKUST"
+    title: "Teaching Assistant"
+    category: "Postgraduate"
+
+  - name: "MSBD6000H: Natural Language Processing"
+    time: "Spring 2021"
+    place: "HKUST"
+    title: "Teaching Assistant"
+    category: "Postgraduate"
+
+  - name: "COMP4332/RMBI4310: Big Data Mining"
+    time: "Spring 2020"
+    place: "HKUST"
+    title: "Teaching Assistant"
+    category: "Undergraduate"
+
+  - name: "COMP4332/RMBI4310: Big Data Mining"
+    time: "Spring 2019"
+    place: "HKUST"
+    title: "Teaching Assistant"
+    category: "Undergraduate"
+
+  - name: "COMP4901K/MATH4824B: Machine Learning for Natural Language Processing"
+    time: "Fall 2018"
+    place: "HKUST"
+    title: "Teaching Assistant"
+    category: "Undergraduate"

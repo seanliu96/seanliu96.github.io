@@ -1,0 +1,20 @@
+students:
+  - name: "Zi-yuan Hu"
+    time: "Spring 2021"
+    place: "Undergraduate (SYSU)"
+    category: "former"
+
+  - name: "Jie Huang"
+    time: "Winter 2020 - Summer 2021"
+    place: "Undergraduate (SYSU)"
+    category: "former"
+
+  - name: "Xinran Zhao"
+    time: "Summer 2019 - Fall 2020"
+    place: "Undergraduate (HKUST)"
+    category: "former"
+
+  - name: "Jiefu Ou"
+    time: "Summer 2019 - Spring 2021"
+    place: "Undergraduate (HKUST)"
+    category: "former"

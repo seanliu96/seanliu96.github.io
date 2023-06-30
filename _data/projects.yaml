@@ -1,0 +1,18 @@
+projects:
+  - title: "FolkScope"
+    subtitle: "the first intention knowledge graph construction for discovering E-commerce commonsense"
+    thumbnail: "assets/projects/folkscope/folkscope-demo.png"
+    url: "https://github.com/HKUST-KnowComp/FolkScope"
+    selected: y
+
+  - title: "ASER"
+    subtitle: "the first large-scale eventuality knowledge graph based on discourse relations"
+    thumbnail: "assets/projects/aser/aser-demo.png"
+    url: "https://hkust-knowcomp.github.io/ASER/html/index.html"
+    selected: y
+
+  - title: "GraphView"
+    subtitle: "the first distributed graph database, which is an important part of Microsoft Azure"
+    thumbnail: "assets/projects/graphview/example-graph.png"
+    url: "https://learn.microsoft.com/en-us/azure/cosmos-db/gremlin/introduction"
+    selected: y
