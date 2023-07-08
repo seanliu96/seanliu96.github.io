@@ -1,18 +1,21 @@
-experiences:
-- place: "Search Query Understanding, Amazon Search (A9)"
+experience:
+- title: "Research Intern"
+  place: "Search Query Understanding, Amazon Search (A9)"
   time: "June 2022 - Dec. 2022"
-  title: "Research Intern"
   subtitle: "Mentor: Dr. Zheng Li, Dr. Yifan Gao, Jingfeng Yang, Dr. Tianyu Cao"
+  topic: "Commonsense Knowedge Graph and Pattern Mining for E-commerce"
   category: "Internship"
 
-- place: "Knowledge Computation Group, Hong Kong University of Science and Technology"
+- title: "Research Assistant"
+  place: "Knowledge Computation Group, Hong Kong University of Science and Technology"
   time: "Jan. 2018 - July 2018"
-  title: "Research Assistant"
   subtitle: "Supervisor: Prof. Yangqiu Song"
+  topic: "Structural Data Representation Learning"
   category: "Visiting"
 
-- place: "Cloud & Mobile, Microsoft Research Asia"
+- title: "Research Intern"
+  place: "Cloud & Mobile, Microsoft Research Asia"
   time: "June 2017 - Dec. 2017"
-  title: "Research Intern"
   subtitle: "Mentor: Dr. Liang Jeff Chen"
+  topic: "Distributed Graph Database"
   category: "Internship"

@@ -2,12 +2,19 @@
 layout: default
 title: Home
 ---
+
+
+
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4><b>Bio</b></h4>
   <p>
       <br>I am a final-year Ph.D. candidate at Department of Computer Science and Engineering, the Hong Kong University of Science and Technology, supervised by <a href="https://www.cseust.hk/~yqsong/">Prof. Yangqiu Song</a>.
       Before that, I received my B.E. degree at School of Data and Computer Science, Sun Yat-sen University in June 2018, supervised by <a href="http://www.rongpan.net">Prof. Rong Pan</a>.
+  </p>
+  <p>
+    My research interests lie in the intersection of machine learning and natural language processing, with a focus on inference, reasoning, as well as knowledge.
+    My goal is to build intelligent systems that can understand and reason over user behaviors and natural languages with the help of structural knowledge and commonsense.
   </p>
 </div>
 
@@ -57,15 +64,14 @@ title: Home
   <p>Most recent publications on <a href="https://scholar.google.com.hk/citations?user=WvC4upQAAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-sel">Selected Papers</div></li>
+    <li><div class="button active" data-ref="#papers-selected">Selected Papers</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>    
     <li><div class="button" data-ref="#papers-ML">Machine Learning</div></li>
     <li><div class="button" data-ref="#papers-NLP">Natural Language Processing</div></li>
   </ul>
 
   <div class="tab-content">
-
-    <div class="tab-pane active" id="papers-sel">
+    <div class="tab-pane active" id="papers-selected">
       {% assign papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in papers %}
         <div class="paper">
@@ -223,8 +229,53 @@ title: Home
   </div>
 </div>
 
+
+<!-- ========== AWARD ========== -->
+<div class="docs-section" id="awards">
+  <h4><b>Awards</b></h4>
+  <div class="tab-content">
+    {% assign all_awards = site.data.awards.awards %}
+    {% for award in all_awards %}
+    <div class="award">
+      <p class="title"><b>{{ award.title }}</b> ({{ award.agent }}, {{ award.time }})</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<!-- ========== EXPERIENCE ========== -->
+<div class="docs-section" id="experience">
+  <h4><b>Working Experience</b></h4>
+  <div class="tab-content">
+    {% assign all_experience = site.data.experience.experience %}
+    {% for experience in all_experience %}
+    <div class="experience">
+      <p class="title"><b>{{ experience.title }}</b> at {{ experience.place }} ({{ experience.time }})</p>
+      <p>{{experience.topic}}, <i>{{experience.subtitle}}</i></p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<!-- ========== TEACHING ========== -->
+<div class="docs-section" id="teaching">
+  <h4><b>Teaching Experience</b></h4>
+  <div class="tab-content">
+    {% assign all_teaching = site.data.teaching.teaching %}
+    {% for teaching in all_teaching %}
+    <div class="teaching">
+      <p class="title"><b>{{ teaching.title }} ({{ teaching.category }})</b> at {{ teaching.place }} ({{ teaching.time }})</p>
+      <p><i>{{teaching.name}}</i></p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- ========== TALKS ========== -->
 <!-- <div class="docs-section" id="talks">
-  <h4>Talks and slides</h4>
+  <h4><b>Talks and slides</b></h4>
   {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
   {% for talk in current_talks %}
   <div class="talk">
@@ -236,24 +287,40 @@ title: Home
 
 <!--- ========== PEOPLE ========== -->
 <div class="docs-section" id="people">
-  <h4>Advisees</h4>
+  <h4><b>Advisees</b></h4>
 
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#current">Current</div></li>
+    <li><div class="button active" data-ref="#all">All</div></li>
+    <li><div class="button" data-ref="#current">Current</div></li>
     <li><div class="button" data-ref="#former">Former</div></li>
   </ul>
 
   <div class="tab-content">
 
-    <div class="tab-pane active" id="current">
+    <div class="tab-pane active" id="all">
+      {% assign all_people = site.data.students.students%}
+      {% for person in all_people %}
+        <div class="people">
+          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
+          <p><i>{{ person.place }}</i>
+          {% if person.current %}
+          , now <i>{{ person.current }}</i>
+          </p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="current">
       {% assign current_people = site.data.students.students | where: "category", "current" %}
       {% for person in current_people %}
-        <div class="paper">
+        <div class="people">
           <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
-          <p><i>{{ person.place }}</i></p>
+          <p><i>{{ person.place }}</i>
           {% if person.current %}
-          <p> {{ person.current }} </p>
+          , now <i>{{ person.current }}</i>
+          </p>
           {% endif %}
         </div>
       {% endfor %}
@@ -262,11 +329,12 @@ title: Home
     <div class="tab-pane" id="former">
       {% assign former_people = site.data.students.students | where: "category", "former" %}
       {% for person in former_people %}
-        <div class="paper">
+        <div class="people">
           <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
-          <p><i>{{ person.place }}</i></p>
+          <p><i>{{ person.place }}</i>
           {% if person.current %}
-          <p> {{ person.current }} </p>
+          , now <i>{{ person.current }}</i>
+          </p>
           {% endif %}
         </div>
       {% endfor %}
