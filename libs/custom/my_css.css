@@ -67,6 +67,54 @@ h4 {
   text-transform: none;
 }
 
+.award {
+  margin-bottom: 20px
+}
+
+.award .title {
+  /*text-transform: uppercase; */
+}
+
+.award p {
+  margin-bottom: 2px
+}
+
+.experience {
+  margin-bottom: 20px
+}
+
+.experience .title {
+  /*text-transform: uppercase; */
+}
+
+.experience p {
+  margin-bottom: 2px
+}
+
+.teaching {
+  margin-bottom: 20px
+}
+
+.teaching .title {
+  /*text-transform: uppercase; */
+}
+
+.teaching p {
+  margin-bottom: 2px
+}
+
+.people {
+  margin-bottom: 20px
+}
+
+.people .title {
+  /*text-transform: uppercase; */
+}
+
+.people p {
+  margin-bottom: 2px
+}
+
 .section-header {
   text-transform: uppercase;
   font-size: 1.5rem;
