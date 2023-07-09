@@ -27,7 +27,7 @@ papers:
     nlp: y
 
   - title: "Complex Hyperbolic Knowledge Graph Embeddings with Fast Fourier Transform"
-    authors: "Hongming Zhang*, <b>Xin Liu</b>*, Haojie Pan*, Haowen Ke, Jiefu Ou, Tianqing Fang, Yangqiu Song"
+    authors: "Huiru Xiao, <b>Xin Liu</b>, Yangqiu Song, Ginny Y. Wong, Simon See"
     venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022"
     arXiv: "https://arxiv.org/abs/2211.03635"
     code: "https://github.com/HKUST-KnowComp/ComplexHyperbolicKGE"
