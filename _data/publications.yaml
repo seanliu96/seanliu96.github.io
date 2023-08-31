@@ -64,7 +64,7 @@ papers:
 
   - title: "On the Importance of Word and Sentence Representation Learning in Implicit Discourse Relation Classification"
     authors: "<b>Xin Liu</b>, Jiefu Ou, Yangqiu Song, Xin Jiang"
-    venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2021"
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2020"
     arXiv: "https://arxiv.org/abs/2004.12617"
     code: "https://github.com/HKUST-KnowComp/BMGF-RoBERTa"
     selected: y
