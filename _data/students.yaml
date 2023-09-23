@@ -1,24 +1,35 @@
 students:
-  - name: "Zi-yuan Hu"
+  - name: "Yilun Jin"
+    time: "Fall 2023"
+    place: "Intern (Amazon)"
+    current: "PhD@HKUST"
+    category: "current"
+    link: https://kl4805.github.io/
+
+  - name: "Zi-Yuan Hu"
     time: "Spring 2021"
-    place: "Undergraduate (SYSU)"
-    current: "PhD (CUHK)"
+    place: "Undergraduate Research Assistant (HKUST)"
+    current: "PhD@CUHK"
     category: "former"
+    link: https://henryhzy.github.io/
 
   - name: "Jie Huang"
     time: "Winter 2020 - Summer 2021"
-    place: "Undergraduate (SYSU)"
-    current: "PhD (UIUC)"
+    place: "Undergraduate Research Assistant (HKUST)"
+    current: "PhD@UIUC"
     category: "former"
+    link: https://jeffhj.github.io/
 
   - name: "Xinran Zhao"
     time: "Summer 2019 - Fall 2020"
-    place: "Undergraduate (HKUST)"
-    current: "PhD (CMU)"
+    place: "Undergraduate Research Assistant (HKUST)"
+    current: "PhD@CMU"
     category: "former"
+    link: https://colinzhaoust.github.io/
 
   - name: "Jiefu Ou"
     time: "Summer 2019 - Spring 2021"
-    place: "Undergraduate (HKUST)"
-    current: "PhD (JHU)"
+    place: "Undergraduate Research Assistant (HKUST)"
+    current: "PhD@JHU"
     category: "former"
+    link: https://jefferyo.github.io/

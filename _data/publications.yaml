@@ -1,9 +1,55 @@
 papers:
+
   - title: "ASER: Towards Large-scale Commonsense Knowledge Acquisition via Higher-order Selectional Preference over Eventualities"
     authors: "Hongming Zhang*, <b>Xin Liu</b>*, Haojie Pan*, Haowen Ke, Jiefu Ou, Tianqing Fang, Yangqiu Song"
     venue: "Artificial Intelligence, 2022"
     arXiv: "https://arxiv.org/abs/2104.02137"
     code: "https://github.com/HKUST-KnowComp/ASER"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "Spatio-Temporal Contrastive Learning Enhanced GNNs for Session-based Recommendation"
+    authors: "Zhongwei Wan, <b>Xin Liu</b>, Benyou Wang, Jiezhong Qiu, Boyu Li, Ting Guo, Guangyong Chen, Yang Wang"
+    venue: "ACM Transactions on Information Systems, 2023"
+    arXiv: "https://arxiv.org/abs/2209.11461"
+    # code: "https://github.com/HKUST-KnowComp/ASER"
+    selected: y
+    ml: y
+    nlp: n
+
+  - title: "Enhancing User Intent Capture in Session-Based Recommendation with Attribute Patterns"
+    authors: "<b>Xin Liu</b>, Zheng Li, Yifan Gao, Jingfeng Yang, Tianyu Cao, Zhengyang Wang, Bing Yin, Yangqiu Song"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    # arXiv: "https://arxiv.org/abs/2305.03973"
+    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    selected: y
+    ml: y
+    nlp: n
+
+  - title: "Complex Eventuality Reasoning with Implicit Logical Constraints"
+    authors: "Jiaxin Bai, <b>Xin Liu</b>, Weiqi Wang, Chen Luo, Yangqiu Song"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    # arXiv: "https://arxiv.org/abs/2305.03973"
+    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    selected: y
+    ml: y
+    nlp: n
+
+  - title: "Open Visual Knowledge Extraction via Relation-Oriented Multimodality Model Prompting"
+    authors: "Hejie Cui, Xinyu Fang, Zihan Zhang, Ran Xu, Xuan Kan, <b>Xin Liu</b>, Manling Li, Yangqiu Song, Carl Yang"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    # arXiv: "https://arxiv.org/abs/2305.03973"
+    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "Self-Consistency Narrative Prompts on Abductive Natural Language Inference"
+    authors: "Chunkit Chan, <b>Xin Liu</b>, Tsz Ho Chan, Jiayang Cheng, Yangqiu Song, Ginny Y. Wong, Simon See"
+    venue: "Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (AACL), 2023"
+    # arXiv: "https://arxiv.org/abs/2305.03973"
+    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
     selected: y
     ml: n
     nlp: y
@@ -22,6 +68,23 @@ papers:
     venue: "Findings of the Association for Computational Linguistics (Findings of ACL), 2023"
     arXiv: "https://arxiv.org/abs/2211.08316"
     code: "https://github.com/HKUST-KnowComp/FolkScope"
+    selected: y
+    ml: n
+    nlp: y
+  
+  - title: "CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering"
+    authors: "Weiqi Wang*, Tianqing Fang*, Wenxuan Ding, Baixuan Xu, <b>Xin Liu</b>, Yangqiu Song, Antoine Bosselut"
+    venue: "arXiv preprint arXiv:2305.14869, 2023"
+    arXiv: "https://arxiv.org/abs/2305.14869"
+    code: "https://github.com/HKUST-KnowComp/CAR"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "ChatGPT Evaluation on Sentence Level Relations: A Focus on Temporal, Causal, and Discourse Relations"
+    authors: "Chunkit Chan, Jiayang Cheng, Weiqi Wang, Yuxin Jiang, Tianqing Fang, <b>Xin Liu</b>, Yangqiu Song"
+    venue: "arXiv preprint arXiv:2304.14827, 2023"
+    arXiv: "https://arxiv.org/abs/2304.14827"
     selected: y
     ml: n
     nlp: y
@@ -121,7 +184,7 @@ papers:
     venue: "World Wide Web Conference (WWW), 2019"
     arXiv: "https://arxiv.org/abs/1902.09347"
     code: "https://github.com/HKUST-KnowComp/PathPredictionForTextClassification"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
@@ -130,23 +193,6 @@ papers:
     venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2018"
     paper_pdf: "https://www.ijcai.org/proceedings/2018/0634.pdf"
     code: "https://github.com/HKUST-KnowComp/SRBRW"
-    selected: y
-    ml: n
-    nlp: y
-
-  - title: "CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering"
-    authors: "Weiqi Wang*, Tianqing Fang*, Wenxuan Ding, Baixuan Xu, <b>Xin Liu</b>, Yangqiu Song, Antoine Bosselut"
-    venue: "arXiv preprint arXiv:2305.14869, 2023"
-    arXiv: "https://arxiv.org/abs/2305.14869"
-    code: "https://github.com/HKUST-KnowComp/CAR"
-    selected: n
-    ml: n
-    nlp: y
-
-  - title: "ChatGPT Evaluation on Sentence Level Relations: A Focus on Temporal, Causal, and Discourse Relations"
-    authors: "Chunkit Chan, Jiayang Cheng, Weiqi Wang, Yuxin Jiang, Tianqing Fang, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "arXiv preprint arXiv:2304.14827, 2023"
-    arXiv: "https://arxiv.org/abs/2304.14827"
     selected: n
     ml: n
     nlp: y

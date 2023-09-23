@@ -302,7 +302,7 @@ title: Home
       {% assign all_people = site.data.students.students%}
       {% for person in all_people %}
         <div class="people">
-          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
+          <p class="title"><a href={{person.link}} target="_blank">{{ person.name }}</a></b> ({{ person.time }})</p>
           <p><i>{{ person.place }}</i>
           {% if person.current %}
           , now <i>{{ person.current }}</i>
@@ -316,7 +316,7 @@ title: Home
       {% assign current_people = site.data.students.students | where: "category", "current" %}
       {% for person in current_people %}
         <div class="people">
-          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
+          <p class="title"><a href={{person.link}} target="_blank">{{ person.name }}</a></b> ({{ person.time }})</p>
           <p><i>{{ person.place }}</i>
           {% if person.current %}
           , now <i>{{ person.current }}</i>
@@ -330,7 +330,7 @@ title: Home
       {% assign former_people = site.data.students.students | where: "category", "former" %}
       {% for person in former_people %}
         <div class="people">
-          <p class="title"><b>{{ person.name }}</b> ({{ person.time }})</p>
+          <p class="title"><a href={{person.link}} target="_blank">{{ person.name }}</a></b> ({{ person.time }})</p>
           <p><i>{{ person.place }}</i>
           {% if person.current %}
           , now <i>{{ person.current }}</i>
