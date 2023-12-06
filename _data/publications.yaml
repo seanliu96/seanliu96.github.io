@@ -4,7 +4,7 @@ papers:
     authors: "Zhongwei Wan, <b>Xin Liu</b>, Benyou Wang, Jiezhong Qiu, Boyu Li, Ting Guo, Guangyong Chen, Yang Wang"
     venue: "ACM Transactions on Information Systems, 2023"
     arXiv: "https://arxiv.org/abs/2209.11461"
-    # code: "https://github.com/HKUST-KnowComp/ASER"
+    code: "https://github.com/SUSTechBruce/RESTC-Source-code"
     selected: y
     ml: y
     nlp: n
@@ -21,8 +21,8 @@ papers:
   - title: "🚗CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering"
     authors: "Weiqi Wang*, Tianqing Fang*, Wenxuan Ding, Baixuan Xu, <b>Xin Liu</b>, Yangqiu Song, Antoine Bosselut"
     venue: "Findings of the Association for Computational Linguistics (Findings of EMNLP), 2023"
-    # arXiv: "https://arxiv.org/abs/2305.03973"
-    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    arXiv: "https://arxiv.org/abs/2305.14869"
+    code: "https://github.com/HKUST-KnowComp/CAR"
     selected: y
     ml: n
     nlp: y
@@ -30,8 +30,8 @@ papers:
   - title: "QaDynamics: Training Dynamics-Driven Synthetic QA Diagnostic for Zero-Shot Commonsense Question Answering"
     authors: "Haochen Shi*, Weiqi Wang*, Tianqing Fang, Baixuan Xu, Wenxuan Ding, <b>Xin Liu</b>, Yangqiu Song"
     venue: "Findings of the Association for Computational Linguistics (Findings of EMNLP), 2023"
-    # arXiv: "https://arxiv.org/abs/2305.03973"
-    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    arXiv: "https://arxiv.org/abs/2310.11303"
+    code: "https://github.com/HKUST-KnowComp/QaDynamics"
     selected: y
     ml: n
     nlp: y
@@ -39,8 +39,8 @@ papers:
   - title: "Gold: A Global and Local-aware Denoising Framework for Commonsense Knowledge Graph Noise Detection"
     authors: "Zheye Deng, Weiqi Wang, Zhaowei Wang, <b>Xin Liu</b>, Yangqiu Song"
     venue: "Findings of the Association for Computational Linguistics (Findings of EMNLP), 2023"
-    # arXiv: "https://arxiv.org/abs/2305.03973"
-    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    arXiv: "https://arxiv.org/abs/2310.12011"
+    code: "https://github.com/HKUST-KnowComp/GOLD"
     selected: y
     ml: n
     nlp: y
@@ -48,8 +48,8 @@ papers:
   - title: "Enhancing User Intent Capture in Session-Based Recommendation with Attribute Patterns"
     authors: "<b>Xin Liu</b>, Zheng Li, Yifan Gao, Jingfeng Yang, Tianyu Cao, Zhengyang Wang, Bing Yin, Yangqiu Song"
     venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
-    # arXiv: "https://arxiv.org/abs/2305.03973"
-    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    paper_pdf: "https://openreview.net/pdf?id=AV3iZlDrzF"
+    code: "https://github.com/HKUST-KnowComp/FAPAT"
     selected: y
     ml: y
     nlp: n
@@ -57,8 +57,8 @@ papers:
   - title: "Complex Eventuality Reasoning with Implicit Logical Constraints"
     authors: "Jiaxin Bai, <b>Xin Liu</b>, Weiqi Wang, Chen Luo, Yangqiu Song"
     venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
-    # arXiv: "https://arxiv.org/abs/2305.03973"
-    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    arXiv: "https://arxiv.org/abs/2305.19068"
+    code: "https://github.com/HKUST-KnowComp/CEQA"
     selected: y
     ml: y
     nlp: n
@@ -66,8 +66,7 @@ papers:
   - title: "Open Visual Knowledge Extraction via Relation-Oriented Multimodality Model Prompting"
     authors: "Hejie Cui, Xinyu Fang, Zihan Zhang, Ran Xu, Xuan Kan, <b>Xin Liu</b>, Yue Yu, Manling Li, Yangqiu Song, Carl Yang"
     venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
-    # arXiv: "https://arxiv.org/abs/2305.03973"
-    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    arXiv: "https://arxiv.org/abs/2310.18804"
     selected: y
     ml: n
     nlp: y
@@ -75,8 +74,8 @@ papers:
   - title: "Self-Consistency Narrative Prompts on Abductive Natural Language Inference"
     authors: "Chunkit Chan, <b>Xin Liu</b>, Tsz Ho Chan, Jiayang Cheng, Yangqiu Song, Ginny Y. Wong, Simon See"
     venue: "Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (AACL), 2023"
-    # arXiv: "https://arxiv.org/abs/2305.03973"
-    # code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
+    arXiv: "https://arxiv.org/abs/2309.08303"
+    code: "https://github.com/HKUST-KnowComp/Alpha-PACE"
     selected: y
     ml: n
     nlp: y
