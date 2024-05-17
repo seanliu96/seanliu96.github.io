@@ -1,9 +1,16 @@
 students:
+  - name: "Chi Han"
+    time: "Fall 2024"
+    place: "Intern (Amazon)"
+    current: "PhD@UIUC"
+    category: "current"
+    link: https://glaciohound.github.io/
+
   - name: "Yilun Jin"
     time: "Fall 2023"
     place: "Intern (Amazon)"
     current: "PhD@HKUST"
-    category: "current"
+    category: "former"
     link: https://kl4805.github.io/
 
   - name: "Zi-Yuan Hu"
