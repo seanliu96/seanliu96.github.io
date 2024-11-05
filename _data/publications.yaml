@@ -18,9 +18,33 @@ papers:
     ml: n
     nlp: y
 
+  - title: "MIND: Multimodal Shopping Intention Distillation from Large Vision-language Models for E-commerce Purchase Understanding"
+    authors: "Baixuan Xu*, Weiqi Wang*, Haochen Shi, Wenxuan Ding, Huihao JING, Tianqing Fang, Jiaxin Bai, <b>Xin Liu</b>, Changlong Yu, Zheng Li, Chen Luo, Qingyu Yin, Bing Yin, Long Chen, Yangqiu Song"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024"
+    arXiv: "https://arxiv.org/abs/2406.10701"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "IntentionQA: A Benchmark for Evaluating Purchase Intention Comprehension Abilities of Language Models in E-commerce"
+    authors: "Wenxuan Ding*, Weiqi Wang*, Sze Heng Douglas Kwok, Minghao LIU, Tianqing Fang, Jiaxin Bai, <b>Xin Liu</b>, Changlong Yu, Zheng Li, Chen Luo, Qingyu Yin, Bing Yin, Junxian He, Yangqiu Song"
+    venue: "Findings on Empirical Methods in Natural Language Processing (Findings of EMNLP), 2024"
+    arXiv: "https://arxiv.org/abs/2406.10173"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "NegotiationToM: A Benchmark for Stress-testing Machine Theory of Mind on Negotiation Surrounding"
+    authors: "Chunkit Chan, Cheng Jiayang, Yauwai Yim, Zheye Deng, Wei Fan, Haoran Li, <b>Xin Liu</b>, Hongming Zhang, Weiqi Wang, Yangqiu Song"
+    venue: "Findings on Empirical Methods in Natural Language Processing (Findings of EMNLP), 2024"
+    arXiv: "https://arxiv.org/abs/2406.10173"
+    selected: y
+    ml: n
+    nlp: y
+
   - title: "Advancing Abductive Reasoning in Knowledge Graphs through Complex Logical Hypothesis Generation"
     authors: "Jiaxin Bai, Yicheng Wang, Tianshi Zheng, Yue Guo, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics ({ACL}), 2024"
+    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
     arXiv: "https://arxiv.org/abs/2312.15643"
     selected: y
     ml: y
@@ -28,7 +52,7 @@ papers:
 
   - title: "AbsInstruct: Eliciting Abstraction Ability from LLMs through Explanation Tuning with Plausibility Estimation"
     authors: "Zhaowei Wang, Wei Fan, Qing Zong, Hongming Zhang, Sehyun Choi, Tianqing Fang, <b>Xin Liu</b>, Yangqiu Song, Ginny Y. Wong, Simon See"
-    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics ({ACL}), 2024"
+    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
     arXiv: "https://arxiv.org/abs/2402.10646"
     code: "https://github.com/HKUST-KnowComp/AbsInstruct"
     selected: y
@@ -37,7 +61,7 @@ papers:
 
   - title: "PrivLM-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models"
     authors: "Haoran Li, Dadi Guo, Donghao Li, Wei Fan, Qi Hu, <b>Xin Liu</b>, Chunkit Chan, Duanyi Yao, Yangqiu Song"
-    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics ({ACL}), 2024"
+    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
     arXiv: "https://arxiv.org/abs/2311.04044"
     selected: y
     ml: n
@@ -45,7 +69,7 @@ papers:
 
   - title: "CANDLE: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning"
     authors: "Weiqi Wang, Tianqing Fang, Chunyang Li, Haochen Shi, Wenxuan Ding, Baixuan Xu, Zhaowei Wang, Jiaxin Bai, <b>Xin Liu</b>, Jiayang Cheng, Chunkit Chan, Yangqiu Song"
-    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics ({ACL}), 2024"
+    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
     arXiv: "https://arxiv.org/abs/2401.07286"
     code: "https://github.com/HKUST-KnowComp/CANDLE"
     selected: y
@@ -54,10 +78,10 @@ papers:
 
   - title: "AbsPyramid: Benchmarking the Abstraction Ability of Language Models with a Unified Entailment Graph"
     authors: "Zhaowei Wang, Haochen Shi, Weiqi Wang, Tianqing Fang, Hongming Zhang, Sehyun Choi, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Findings of 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (Findings of NAACL), 2024"
+    venue: "Findings of Annual Conference of the North American Chapter of the Association for Computational Linguistics (Findings of NAACL), 2024"
     arXiv: "https://arxiv.org/abs/2311.09174"
     code: "https://github.com/HKUST-KnowComp/AbsPyramid"
-    selected: n
+    selected: y
     ml: n
     nlp: y
 
@@ -72,7 +96,7 @@ papers:
 
   - title: "ChatGPT Evaluation on Sentence Level Relations: A Focus on Temporal, Causal, and Discourse Relations"
     authors: "Chunkit Chan, Jiayang Cheng, Weiqi Wang, Yuxin Jiang, Tianqing Fang, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Findings of European Chapter of the Association for Computational Linguistics ({Findings-EACL}), 2024"
+    venue: "Findings of European Chapter of the Association for Computational Linguistics (Findings-EACL), 2024"
     arXiv: "https://arxiv.org/abs/2304.14827"
     selected: n
     ml: n
@@ -127,7 +151,7 @@ papers:
     venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
     arXiv: "https://arxiv.org/abs/2305.19068"
     code: "https://github.com/HKUST-KnowComp/CEQA"
-    selected: y
+    selected: n
     ml: y
     nlp: n
 
@@ -135,7 +159,7 @@ papers:
     authors: "Hejie Cui, Xinyu Fang, Zihan Zhang, Ran Xu, Xuan Kan, <b>Xin Liu</b>, Yue Yu, Manling Li, Yangqiu Song, Carl Yang"
     venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
     arXiv: "https://arxiv.org/abs/2310.18804"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
@@ -162,15 +186,6 @@ papers:
     venue: "Findings of the Association for Computational Linguistics (Findings of ACL), 2023"
     arXiv: "https://arxiv.org/abs/2211.08316"
     code: "https://github.com/HKUST-KnowComp/FolkScope"
-    selected: y
-    ml: n
-    nlp: y
-  
-  - title: "CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering"
-    authors: "Weiqi Wang*, Tianqing Fang*, Wenxuan Ding, Baixuan Xu, <b>Xin Liu</b>, Yangqiu Song, Antoine Bosselut"
-    venue: "arXiv preprint arXiv:2305.14869, 2023"
-    arXiv: "https://arxiv.org/abs/2305.14869"
-    code: "https://github.com/HKUST-KnowComp/CAR"
     selected: y
     ml: n
     nlp: y

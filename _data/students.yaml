@@ -1,9 +1,16 @@
 students:
+  - name: "Weiqi Wang"
+    time: "Fall 2024"
+    place: "Intern (Amazon)"
+    current: "PhD@HKUST"
+    category: "former"
+    link: https://mighty-weaver.github.io/
+
   - name: "Chi Han"
     time: "Fall 2024"
     place: "Intern (Amazon)"
     current: "PhD@UIUC"
-    category: "current"
+    category: "former"
     link: https://glaciohound.github.io/
 
   - name: "Yilun Jin"
