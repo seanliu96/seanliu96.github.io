@@ -1,10 +1,24 @@
 students:
   - name: "Weiqi Wang"
-    time: "Fall 2024"
+    time: "Fall 2024, 2025"
     place: "Intern (Amazon)"
-    current: "PhD@HKUST"
+    current: "Researcher at Tencent Hunyuan Team"
     category: "former"
     link: https://mighty-weaver.github.io/
+    
+  - name: "Jiayang Cheng"
+    time: "Fall 2025"
+    place: "Intern (Amazon)"
+    current: "Researcher at Alibaba Qwen Team"
+    category: "former"
+    link: https://jiayangcheng.com/
+
+  - name: "Yizhuo Chen"
+    time: "Fall 2024"
+    place: "Intern (Amazon)"
+    current: "PhD@UIUC"
+    category: "former"
+    link: https://www.linkedin.com/in/yizhuo-chen/
 
   - name: "Chi Han"
     time: "Fall 2024"
@@ -30,16 +44,9 @@ students:
   - name: "Jie Huang"
     time: "Winter 2020 - Summer 2021"
     place: "Undergraduate Research Assistant (HKUST)"
-    current: "PhD@UIUC"
+    current: "MTSF@xAI"
     category: "former"
     link: https://jeffhj.github.io/
-
-  - name: "Xinran Zhao"
-    time: "Summer 2019 - Fall 2020"
-    place: "Undergraduate Research Assistant (HKUST)"
-    current: "PhD@CMU"
-    category: "former"
-    link: https://colinzhaoust.github.io/
 
   - name: "Jiefu Ou"
     time: "Summer 2019 - Spring 2021"
@@ -47,3 +54,10 @@ students:
     current: "PhD@JHU"
     category: "former"
     link: https://jefferyo.github.io/
+
+  - name: "Xinran Zhao"
+    time: "Summer 2019 - Fall 2020"
+    place: "Undergraduate Research Assistant (HKUST)"
+    current: "PhD@CMU"
+    category: "former"
+    link: https://colinzhaoust.github.io/

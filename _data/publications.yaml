@@ -1,19 +1,169 @@
 papers:
+  - title: "Learning to optimize multi-objective alignment through dynamic reward weighting"
+    authors: "Yining Lu, Zilong Wang, Shiyang Li, <b>Xin Liu</b>, Changlong Yu, Qingyu Yin, Zhan Shi, Zixuan Zhang, Meng Jiang"
+    venue: "Transactions of the Association for Computational Linguistics, 2026"
+    arXiv: "https://arxiv.org/abs/2509.11452"
+    code: "https://github.com/yining610/dynamic-reward-weighting"
+    selected: y
+    ml: n
+    nlp: y
 
-  - title: "Spatio-Temporal Contrastive Learning Enhanced GNNs for Session-based Recommendation"
-    authors: "Zhongwei Wan, <b>Xin Liu</b>, Benyou Wang, Jiezhong Qiu, Boyu Li, Ting Guo, Guangyong Chen, Yang Wang"
-    venue: "ACM Transactions on Information Systems, 2023"
-    arXiv: "https://arxiv.org/abs/2209.11461"
-    code: "https://github.com/SUSTechBruce/RESTC-Source-code"
+  - title: "Leveraging historical information to boost retrieval-augmented generation in conversations"
+    authors: "Fengran Mo, Yifan Gao, Zhuofeng Wu, <b>Xin Liu</b>, Pei Chen, Zheng Li, Zhengyang Wang, Xian Li, Meng Jiang, Jian-Yun Nie"
+    venue: "Information Processing & Management, 2026"
+    paper_pdf: "https://www.sciencedirect.com/science/article/pii/S0306457325003905"
+    selected: n
+    ml: n
+    nlp: y
+
+  - title: "Webcoach: Self-evolving web agents with cross-session memory guidance"
+    authors: "Genglin Liu, Shijie Geng, Sha Li, Hejie Cui, Sarah Zhang, <b>Xin Liu</b>, Tianyi Liu"
+    venue: "ICLR MemAgents Workshop, 2026"
+    arXiv: "https://arxiv.org/abs/2511.12997"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "HeaPA: Difficulty-Aware Heap Sampling and On-Policy Query Augmentation for LLM Reinforcement Learning"
+    authors: "Weiqi Wang, <b>Xin Liu</b>, Binxuan Huang, Hejie Cui, Rongzhi Zhang, Changlong Yu, Shuowei Jin, Jingfeng Yang, Qingyu Yin, Zhengyang Wang, others"
+    venue: "ArXiv preprint, 2026"
+    arXiv: "https://arxiv.org/abs/2601.22448"
+    code: "https://github.com/horizon-rl/HeaPA"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "Agentic Conversational Search with Contextualized Reasoning via Reinforcement Learning"
+    authors: "Fengran Mo, Yifan Gao, Sha Li, Hansi Zeng, <b>Xin Liu</b>, Zhaoxuan Tan, Xian Li, Jianshu Chen, Dakuo Wang, Meng Jiang"
+    venue: "ArXiv preprint, 2026"
+    arXiv: "https://arxiv.org/abs/2601.13115"
+    selected: n
+    ml: n
+    nlp: y
+
+  - title: "Teach Diffusion Language Models to Learn from Their Own Mistakes"
+    authors: "Liming Liu, Binxuan Huang, <b>Xin Liu</b>, Bing Yin, Tuo Zhao"
+    venue: "ArXiv preprint, 2026"
+    arXiv: "https://arxiv.org/abs/2601.06428"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "Beyond Test-Time Training: Learning to Reason via Hardware-Efficient Optimal Control"
+    authors: "Peihao Wang, Shan Yang, Xijun Wang, Tesi Xiao, <b>Xin Liu</b>, Changlong Yu, Yu Lou, Pan Li, Zhangyang Wang, Ming Lin, others"
+    venue: "ArXiv preprint, 2026"
+    arXiv: "https://arxiv.org/abs/2603.09221"
+    code: "https://github.com/VITA-Group/TTC-Net"
     selected: y
     ml: y
     nlp: n
 
-  - title: "ASER: Towards Large-scale Commonsense Knowledge Acquisition via Higher-order Selectional Preference over Eventualities"
-    authors: "Hongming Zhang*, <b>Xin Liu</b>*, Haojie Pan*, Haowen Ke, Jiefu Ou, Tianqing Fang, Yangqiu Song"
-    venue: "Artificial Intelligence, 2022"
-    arXiv: "https://arxiv.org/abs/2104.02137"
-    code: "https://github.com/HKUST-KnowComp/ASER"
+  - title: "POPI: Personalizing LLMs via Optimized Natural Language Preference Inference"
+    authors: "Yizhuo Chen, <b>Xin Liu</b>, Ruijie Wang, Zheng Li, Pei Chen, Changlong Yu, Priyanka Nigam, Meng Jiang, Bing Yin"
+    venue: "ArXiv preprint, 2025"
+    arXiv: "https://arxiv.org/abs/2510.17881"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "DeepPlanner: Scaling Planning Capability for Deep Research Agents via Advantage Shaping"
+    authors: "Wei Fan, Wenlin Yao, Zheng Li, Feng Yao, <b>Xin Liu</b>, Liang Qiu, Qingyu Yin, Yangqiu Song, Bing Yin"
+    venue: "ArXiv preprint, 2025"
+    arXiv: "https://arxiv.org/abs/2510.12979"
+    code: "https://github.com/AlexFanw/DeepPlanner"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "IHEval: Evaluating language models on following the instruction hierarchy"
+    authors: "Zhihan Zhang, Shiyang Li, Zixuan Zhang, <b>Xin Liu</b>, Haoming Jiang, Xianfeng Tang, Yifan Gao, Zheng Li, Haodong Wang, Zhaoxuan Tan, others"
+    venue: "NAACL, 2025"
+    arXiv: "https://arxiv.org/abs/2502.08745"
+    code: "https://github.com/ytyz1307zzh/IHEval"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "Hephaestus: Improving Fundamental Agent Capabilities of Large Language Models through Continual Pre-Training"
+    authors: "Yuchen Zhuang, Jingfeng Yang, Haoming Jiang, <b>Xin Liu</b>, Kewei Cheng, Sanket Lokegaonkar, Yifan Gao, Qing Ping, Tianyi Liu, Binxuan Huang, others"
+    venue: "NAACL, 2025"
+    arXiv: "https://arxiv.org/abs/2502.06589"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "Think-RM: Enabling long-horizon reasoning in generative reward models"
+    authors: "Ilgee Hong, Changlong Yu, Liang Qiu, Weixiang Yan, Zhenghao Xu, Haoming Jiang, Qingru Zhang, Qin Lu, <b>Xin Liu</b>, Chao Zhang, others"
+    venue: "ICML, 2025"
+    arXiv: "https://arxiv.org/abs/2505.16265"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "EcomScriptBench: A multi-task benchmark for e-commerce script planning via step-wise intention-driven product association"
+    authors: "Weiqi Wang, Limeng Cui, <b>Xin Liu</b>, Sreyashi Nag, Wenju Xu, Chen Luo, Sheikh Muhammad Sarwar, Yang Li, Hansu Gu, Hui Liu, others"
+    venue: "ACL, 2025"
+    arXiv: "https://arxiv.org/abs/2505.15196"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "Discriminative Finetuning of Generative Large Language Models without Reward Models and Human Preference Data"
+    authors: "Siqi Guo, Ilgee Hong, Vicente Balmaseda, Changlong Yu, Liang Qiu, <b>Xin Liu</b>, Haoming Jiang, Tuo Zhao, Tianbao Yang"
+    venue: "ICML, 2025"
+    arXiv: "https://arxiv.org/abs/2502.18679"
+    code: "https://github.com/Optimization-AI/DFT"
+    selected: n
+    ml: n
+    nlp: y
+
+  - title: "Uniconv: Unifying retrieval and response generation for large language models in conversations"
+    authors: "Fengran Mo, Yifan Gao, Chuan Meng, <b>Xin Liu</b>, Zhuofeng Wu, Kelong Mao, Zhengyang Wang, Pei Chen, Zheng Li, Xian Li, others"
+    venue: "ACL, 2025"
+    arXiv: "https://arxiv.org/abs/2507.07030"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "Can Language Models Follow Multiple Turns of Entangled Instructions?"
+    authors: "Chi Han, <b>Xin Liu</b>, Haodong Wang, Shiyang Li, Jingfeng Yang, Haoming Jiang, Zhengyang Wang, Qingyu Yin, Liang Qiu, Changlong Yu, others"
+    venue: "Findings of EMNLP, 2025"
+    arXiv: "https://arxiv.org/abs/2503.13222"
+    code: "https://github.com/Glaciohound/Multi-Turn-Instruct"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "DrAgent: Empowering Large Language Models as Medical Agents for Multi-hop Medical Reasoning"
+    authors: "Fenglin Liu, Zheng Li, Hongjian Zhou, Qingyu Yin, Jingfeng Yang, <b>Xin Liu</b>, Zhengyang Wang, Xianfeng Tang, Shiyang Li, Xiang He, others"
+    venue: "Findings of EMNLP, 2025"
+    paper_pdf: "https://aclanthology.org/2025.findings-emnlp.848.pdf"
+    selected: n
+    ml: n
+    nlp: y
+
+  - title: "InteGround: On the Evaluation of Verification and Retrieval Planning in Integrative Grounding"
+    authors: "Jiayang Cheng, Qianqian Zhuang, Haoran Li, Chunkit Chan, <b>Xin Liu</b>, Lin Qiu, Yangqiu Song"
+    venue: "Findings of EMNLP, 2025"
+    arXiv: "https://arxiv.org/abs/2509.16534"
+    code: "https://github.com/HKUST-KnowComp/InteGround"
+    selected: n
+    ml: n
+    nlp: y
+
+  - title: "Towards Subgraph Isomorphism Counting with Graph Kernels"
+    authors: "<b>Xin Liu</b>, Weiqi Wang, Jiaxin Bai, Yangqiu Song"
+    venue: "ArXiv preprint, 2024"
+    arXiv: "https://arxiv.org/abs/2405.07497"
+    selected: n
+    ml: y
+    nlp: n
+
+
+  - title: "On the role of entity and event level conceptualization in generalizable reasoning: A survey of tasks, methods, applications, and future directions"
+    authors: "Weiqi Wang, Tianqing Fang, Haochen Shi, Baixuan Xu, Wenxuan Ding, Liyu Zhang, Wei Fan, Jiaxin Bai, Haoran Li, <b>Xin Liu</b>, others"
+    venue: "ArXiv preprint, 2024"
+    arXiv: "https://arxiv.org/abs/2406.10885"
     selected: y
     ml: n
     nlp: y
@@ -30,7 +180,7 @@ papers:
     authors: "Wenxuan Ding*, Weiqi Wang*, Sze Heng Douglas Kwok, Minghao LIU, Tianqing Fang, Jiaxin Bai, <b>Xin Liu</b>, Changlong Yu, Zheng Li, Chen Luo, Qingyu Yin, Bing Yin, Junxian He, Yangqiu Song"
     venue: "Findings on Empirical Methods in Natural Language Processing (Findings of EMNLP), 2024"
     arXiv: "https://arxiv.org/abs/2406.10173"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
@@ -46,7 +196,7 @@ papers:
     authors: "Jiaxin Bai, Yicheng Wang, Tianshi Zheng, Yue Guo, <b>Xin Liu</b>, Yangqiu Song"
     venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
     arXiv: "https://arxiv.org/abs/2312.15643"
-    selected: y
+    selected: n
     ml: y
     nlp: n
 
@@ -124,7 +274,7 @@ papers:
     venue: "Findings of the Association for Computational Linguistics (Findings of EMNLP), 2023"
     arXiv: "https://arxiv.org/abs/2310.11303"
     code: "https://github.com/HKUST-KnowComp/QaDynamics"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
@@ -163,6 +313,15 @@ papers:
     ml: n
     nlp: y
 
+  - title: "Spatio-Temporal Contrastive Learning Enhanced GNNs for Session-based Recommendation"
+    authors: "Zhongwei Wan, <b>Xin Liu</b>, Benyou Wang, Jiezhong Qiu, Boyu Li, Ting Guo, Guangyong Chen, Yang Wang"
+    venue: "ACM Transactions on Information Systems, 2023"
+    arXiv: "https://arxiv.org/abs/2209.11461"
+    code: "https://github.com/SUSTechBruce/RESTC-Source-code"
+    selected: y
+    ml: y
+    nlp: n
+
   - title: "Self-Consistency Narrative Prompts on Abductive Natural Language Inference"
     authors: "Chunkit Chan, <b>Xin Liu</b>, Tsz Ho Chan, Jiayang Cheng, Yangqiu Song, Ginny Y. Wong, Simon See"
     venue: "Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (AACL), 2023"
@@ -186,6 +345,15 @@ papers:
     venue: "Findings of the Association for Computational Linguistics (Findings of ACL), 2023"
     arXiv: "https://arxiv.org/abs/2211.08316"
     code: "https://github.com/HKUST-KnowComp/FolkScope"
+    selected: y
+    ml: n
+    nlp: y
+  
+  - title: "ASER: Towards Large-scale Commonsense Knowledge Acquisition via Higher-order Selectional Preference over Eventualities"
+    authors: "Hongming Zhang*, <b>Xin Liu</b>*, Haojie Pan*, Haowen Ke, Jiefu Ou, Tianqing Fang, Yangqiu Song"
+    venue: "Artificial Intelligence, 2022"
+    arXiv: "https://arxiv.org/abs/2104.02137"
+    code: "https://github.com/HKUST-KnowComp/ASER"
     selected: y
     ml: n
     nlp: y
