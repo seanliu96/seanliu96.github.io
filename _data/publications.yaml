@@ -33,6 +33,14 @@ papers:
     ml: n
     nlp: y
 
+  - title: "Training LLMs for Multi-Step Tool Orchestration with Constrained Data Synthesis and Graduated Rewards"
+    authors: "Jiayang Cheng, <b>Xin Liu</b>, Zhihan Zhang, Haoyang Wen, Zixuan Zhang, Qingyu Yin, Shiyang Li, Priyanka Nigam, Bing Yin, Chao Zhang, Yangqiu Song"
+    venue: "ArXiv preprint, 2026"
+    arXiv: "https://arxiv.org/abs/2603.24709"
+    selected: y
+    ml: n
+    nlp: y
+
   - title: "Agentic Conversational Search with Contextualized Reasoning via Reinforcement Learning"
     authors: "Fengran Mo, Yifan Gao, Sha Li, Hansi Zeng, <b>Xin Liu</b>, Zhaoxuan Tan, Xian Li, Jianshu Chen, Dakuo Wang, Meng Jiang"
     venue: "ArXiv preprint, 2026"
@@ -54,7 +62,7 @@ papers:
     venue: "ArXiv preprint, 2026"
     arXiv: "https://arxiv.org/abs/2603.09221"
     code: "https://github.com/VITA-Group/TTC-Net"
-    selected: y
+    selected: n
     ml: y
     nlp: n
 
@@ -75,35 +83,10 @@ papers:
     ml: n
     nlp: y
 
-  - title: "IHEval: Evaluating language models on following the instruction hierarchy"
-    authors: "Zhihan Zhang, Shiyang Li, Zixuan Zhang, <b>Xin Liu</b>, Haoming Jiang, Xianfeng Tang, Yifan Gao, Zheng Li, Haodong Wang, Zhaoxuan Tan, others"
-    venue: "NAACL, 2025"
-    arXiv: "https://arxiv.org/abs/2502.08745"
-    code: "https://github.com/ytyz1307zzh/IHEval"
-    selected: y
-    ml: n
-    nlp: y
-
-  - title: "Hephaestus: Improving Fundamental Agent Capabilities of Large Language Models through Continual Pre-Training"
-    authors: "Yuchen Zhuang, Jingfeng Yang, Haoming Jiang, <b>Xin Liu</b>, Kewei Cheng, Sanket Lokegaonkar, Yifan Gao, Qing Ping, Tianyi Liu, Binxuan Huang, others"
-    venue: "NAACL, 2025"
-    arXiv: "https://arxiv.org/abs/2502.06589"
-    selected: y
-    ml: n
-    nlp: y
-
   - title: "Think-RM: Enabling long-horizon reasoning in generative reward models"
     authors: "Ilgee Hong, Changlong Yu, Liang Qiu, Weixiang Yan, Zhenghao Xu, Haoming Jiang, Qingru Zhang, Qin Lu, <b>Xin Liu</b>, Chao Zhang, others"
     venue: "ICML, 2025"
     arXiv: "https://arxiv.org/abs/2505.16265"
-    selected: y
-    ml: n
-    nlp: y
-
-  - title: "EcomScriptBench: A multi-task benchmark for e-commerce script planning via step-wise intention-driven product association"
-    authors: "Weiqi Wang, Limeng Cui, <b>Xin Liu</b>, Sreyashi Nag, Wenju Xu, Chen Luo, Sheikh Muhammad Sarwar, Yang Li, Hansu Gu, Hui Liu, others"
-    venue: "ACL, 2025"
-    arXiv: "https://arxiv.org/abs/2505.15196"
     selected: y
     ml: n
     nlp: y
@@ -117,10 +100,35 @@ papers:
     ml: n
     nlp: y
 
+  - title: "Hephaestus: Improving Fundamental Agent Capabilities of Large Language Models through Continual Pre-Training"
+    authors: "Yuchen Zhuang, Jingfeng Yang, Haoming Jiang, <b>Xin Liu</b>, Kewei Cheng, Sanket Lokegaonkar, Yifan Gao, Qing Ping, Tianyi Liu, Binxuan Huang, others"
+    venue: "NAACL, 2025"
+    arXiv: "https://arxiv.org/abs/2502.06589"
+    selected: y
+    ml: n
+    nlp: y
+
   - title: "Uniconv: Unifying retrieval and response generation for large language models in conversations"
     authors: "Fengran Mo, Yifan Gao, Chuan Meng, <b>Xin Liu</b>, Zhuofeng Wu, Kelong Mao, Zhengyang Wang, Pei Chen, Zheng Li, Xian Li, others"
     venue: "ACL, 2025"
     arXiv: "https://arxiv.org/abs/2507.07030"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "EcomScriptBench: A multi-task benchmark for e-commerce script planning via step-wise intention-driven product association"
+    authors: "Weiqi Wang, Limeng Cui, <b>Xin Liu</b>, Sreyashi Nag, Wenju Xu, Chen Luo, Sheikh Muhammad Sarwar, Yang Li, Hansu Gu, Hui Liu, others"
+    venue: "ACL, 2025"
+    arXiv: "https://arxiv.org/abs/2505.15196"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "IHEval: Evaluating language models on following the instruction hierarchy"
+    authors: "Zhihan Zhang, Shiyang Li, Zixuan Zhang, <b>Xin Liu</b>, Haoming Jiang, Xianfeng Tang, Yifan Gao, Zheng Li, Haodong Wang, Zhaoxuan Tan, others"
+    venue: "NAACL, 2025"
+    arXiv: "https://arxiv.org/abs/2502.08745"
+    code: "https://github.com/ytyz1307zzh/IHEval"
     selected: y
     ml: n
     nlp: y
@@ -164,21 +172,21 @@ papers:
     authors: "Weiqi Wang, Tianqing Fang, Haochen Shi, Baixuan Xu, Wenxuan Ding, Liyu Zhang, Wei Fan, Jiaxin Bai, Haoran Li, <b>Xin Liu</b>, others"
     venue: "ArXiv preprint, 2024"
     arXiv: "https://arxiv.org/abs/2406.10885"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
   - title: "MIND: Multimodal Shopping Intention Distillation from Large Vision-language Models for E-commerce Purchase Understanding"
     authors: "Baixuan Xu*, Weiqi Wang*, Haochen Shi, Wenxuan Ding, Huihao JING, Tianqing Fang, Jiaxin Bai, <b>Xin Liu</b>, Changlong Yu, Zheng Li, Chen Luo, Qingyu Yin, Bing Yin, Long Chen, Yangqiu Song"
-    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024"
+    venue: "EMNLP, 2024"
     arXiv: "https://arxiv.org/abs/2406.10701"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
   - title: "IntentionQA: A Benchmark for Evaluating Purchase Intention Comprehension Abilities of Language Models in E-commerce"
     authors: "Wenxuan Ding*, Weiqi Wang*, Sze Heng Douglas Kwok, Minghao LIU, Tianqing Fang, Jiaxin Bai, <b>Xin Liu</b>, Changlong Yu, Zheng Li, Chen Luo, Qingyu Yin, Bing Yin, Junxian He, Yangqiu Song"
-    venue: "Findings on Empirical Methods in Natural Language Processing (Findings of EMNLP), 2024"
+    venue: "Findings of EMNLP, 2024"
     arXiv: "https://arxiv.org/abs/2406.10173"
     selected: n
     ml: n
@@ -186,7 +194,7 @@ papers:
 
   - title: "NegotiationToM: A Benchmark for Stress-testing Machine Theory of Mind on Negotiation Surrounding"
     authors: "Chunkit Chan, Cheng Jiayang, Yauwai Yim, Zheye Deng, Wei Fan, Haoran Li, <b>Xin Liu</b>, Hongming Zhang, Weiqi Wang, Yangqiu Song"
-    venue: "Findings on Empirical Methods in Natural Language Processing (Findings of EMNLP), 2024"
+    venue: "Findings of EMNLP, 2024"
     arXiv: "https://arxiv.org/abs/2406.10173"
     selected: y
     ml: n
@@ -194,7 +202,7 @@ papers:
 
   - title: "Advancing Abductive Reasoning in Knowledge Graphs through Complex Logical Hypothesis Generation"
     authors: "Jiaxin Bai, Yicheng Wang, Tianshi Zheng, Yue Guo, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
+    venue: "ACL, 2024"
     arXiv: "https://arxiv.org/abs/2312.15643"
     selected: n
     ml: y
@@ -202,16 +210,16 @@ papers:
 
   - title: "AbsInstruct: Eliciting Abstraction Ability from LLMs through Explanation Tuning with Plausibility Estimation"
     authors: "Zhaowei Wang, Wei Fan, Qing Zong, Hongming Zhang, Sehyun Choi, Tianqing Fang, <b>Xin Liu</b>, Yangqiu Song, Ginny Y. Wong, Simon See"
-    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
+    venue: "ACL, 2024"
     arXiv: "https://arxiv.org/abs/2402.10646"
     code: "https://github.com/HKUST-KnowComp/AbsInstruct"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
   - title: "PrivLM-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models"
     authors: "Haoran Li, Dadi Guo, Donghao Li, Wei Fan, Qi Hu, <b>Xin Liu</b>, Chunkit Chan, Duanyi Yao, Yangqiu Song"
-    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
+    venue: "ACL, 2024"
     arXiv: "https://arxiv.org/abs/2311.04044"
     selected: y
     ml: n
@@ -219,16 +227,16 @@ papers:
 
   - title: "CANDLE: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning"
     authors: "Weiqi Wang, Tianqing Fang, Chunyang Li, Haochen Shi, Wenxuan Ding, Baixuan Xu, Zhaowei Wang, Jiaxin Bai, <b>Xin Liu</b>, Jiayang Cheng, Chunkit Chan, Yangqiu Song"
-    venue: "Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL), 2024"
+    venue: "ACL, 2024"
     arXiv: "https://arxiv.org/abs/2401.07286"
     code: "https://github.com/HKUST-KnowComp/CANDLE"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
   - title: "AbsPyramid: Benchmarking the Abstraction Ability of Language Models with a Unified Entailment Graph"
     authors: "Zhaowei Wang, Haochen Shi, Weiqi Wang, Tianqing Fang, Hongming Zhang, Sehyun Choi, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Findings of Annual Conference of the North American Chapter of the Association for Computational Linguistics (Findings of NAACL), 2024"
+    venue: "Findings of NAACL, 2024"
     arXiv: "https://arxiv.org/abs/2311.09174"
     code: "https://github.com/HKUST-KnowComp/AbsPyramid"
     selected: y
@@ -237,7 +245,7 @@ papers:
 
   - title: "EventGround: Narrative Reasoning by Grounding to Eventuality-centric Knowledge Graphs"
     authors: "Cheng Jiayang, Lin Qiu, Chunkit Chan, <b>Xin Liu</b>, Yangqiu Song, Zheng Zhang"
-    venue: "International Conference on Computational Linguistics (COLING), 2024"
+    venue: "COLING, 2024"
     arXiv: "https://arxiv.org/abs/2404.00209"
     code: "https://github.com/HKUST-KnowComp/EventGround"
     selected: n
@@ -246,7 +254,7 @@ papers:
 
   - title: "ChatGPT Evaluation on Sentence Level Relations: A Focus on Temporal, Causal, and Discourse Relations"
     authors: "Chunkit Chan, Jiayang Cheng, Weiqi Wang, Yuxin Jiang, Tianqing Fang, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Findings of European Chapter of the Association for Computational Linguistics (Findings-EACL), 2024"
+    venue: "Findings of EACL, 2024"
     arXiv: "https://arxiv.org/abs/2304.14827"
     selected: n
     ml: n
@@ -254,7 +262,7 @@ papers:
 
   - title: "COSMO: A large-scale e-commerce common sense knowledge generation and serving system at Amazon"
     authors: "Changlong Yu*, <b>Xin Liu</b>*, Jefferson Maia, Tianyu Cao, Laurence (Yang) Li, Yifan Gao, Yangqiu Song, Rahul Goutam, Haiyang Zhang, Bing Yin, Zheng Li*"
-    venue: "ACM SIGMOD International Conference on Management of Data (SIGMOD), 2024"
+    venue: "SIGMOD, 2024"
     link: "https://www.amazon.science/publications/cosmo-a-large-scale-e-commerce-common-sense-knowledge-generation-and-serving-system-at-amazon"
     selected: y
     ml: n
@@ -262,16 +270,16 @@ papers:
 
   - title: "🚗CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering"
     authors: "Weiqi Wang*, Tianqing Fang*, Wenxuan Ding, Baixuan Xu, <b>Xin Liu</b>, Yangqiu Song, Antoine Bosselut"
-    venue: "Findings of the Association for Computational Linguistics (Findings of EMNLP), 2023"
+    venue: "Findings of EMNLP, 2023"
     arXiv: "https://arxiv.org/abs/2305.14869"
     code: "https://github.com/HKUST-KnowComp/CAR"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
   - title: "QaDynamics: Training Dynamics-Driven Synthetic QA Diagnostic for Zero-Shot Commonsense Question Answering"
     authors: "Haochen Shi*, Weiqi Wang*, Tianqing Fang, Baixuan Xu, Wenxuan Ding, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Findings of the Association for Computational Linguistics (Findings of EMNLP), 2023"
+    venue: "Findings of EMNLP, 2023"
     arXiv: "https://arxiv.org/abs/2310.11303"
     code: "https://github.com/HKUST-KnowComp/QaDynamics"
     selected: n
@@ -280,7 +288,7 @@ papers:
 
   - title: "Gold: A Global and Local-aware Denoising Framework for Commonsense Knowledge Graph Noise Detection"
     authors: "Zheye Deng, Weiqi Wang, Zhaowei Wang, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Findings of the Association for Computational Linguistics (Findings of EMNLP), 2023"
+    venue: "Findings of EMNLP, 2023"
     arXiv: "https://arxiv.org/abs/2310.12011"
     code: "https://github.com/HKUST-KnowComp/GOLD"
     selected: n
@@ -289,7 +297,7 @@ papers:
 
   - title: "Enhancing User Intent Capture in Session-Based Recommendation with Attribute Patterns"
     authors: "<b>Xin Liu</b>, Zheng Li, Yifan Gao, Jingfeng Yang, Tianyu Cao, Zhengyang Wang, Bing Yin, Yangqiu Song"
-    venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    venue: "NeurIPS, 2023"
     paper_pdf: "https://openreview.net/pdf?id=AV3iZlDrzF"
     code: "https://github.com/HKUST-KnowComp/FAPAT"
     selected: y
@@ -298,7 +306,7 @@ papers:
 
   - title: "Complex Eventuality Reasoning with Implicit Logical Constraints"
     authors: "Jiaxin Bai, <b>Xin Liu</b>, Weiqi Wang, Chen Luo, Yangqiu Song"
-    venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    venue: "NeurIPS, 2023"
     arXiv: "https://arxiv.org/abs/2305.19068"
     code: "https://github.com/HKUST-KnowComp/CEQA"
     selected: n
@@ -307,7 +315,7 @@ papers:
 
   - title: "Open Visual Knowledge Extraction via Relation-Oriented Multimodality Model Prompting"
     authors: "Hejie Cui, Xinyu Fang, Zihan Zhang, Ran Xu, Xuan Kan, <b>Xin Liu</b>, Yue Yu, Manling Li, Yangqiu Song, Carl Yang"
-    venue: "Conference on Neural Information Processing Systems (NeurIPS), 2023"
+    venue: "NeurIPS, 2023"
     arXiv: "https://arxiv.org/abs/2310.18804"
     selected: n
     ml: n
@@ -318,22 +326,22 @@ papers:
     venue: "ACM Transactions on Information Systems, 2023"
     arXiv: "https://arxiv.org/abs/2209.11461"
     code: "https://github.com/SUSTechBruce/RESTC-Source-code"
-    selected: y
+    selected: n
     ml: y
     nlp: n
 
   - title: "Self-Consistency Narrative Prompts on Abductive Natural Language Inference"
     authors: "Chunkit Chan, <b>Xin Liu</b>, Tsz Ho Chan, Jiayang Cheng, Yangqiu Song, Ginny Y. Wong, Simon See"
-    venue: "Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (AACL), 2023"
+    venue: "AACL, 2023"
     arXiv: "https://arxiv.org/abs/2309.08303"
     code: "https://github.com/HKUST-KnowComp/Alpha-PACE"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
   - title: "DiscoPrompt: Path Prediction Prompt Tuning for Implicit Discourse Relation Recognition"
     authors: "Chunkit Chan*, <b>Xin Liu</b>*, Jiayang Cheng, Zihan Li, Yangqiu Song, Ginny Y. Wong, Simon See"
-    venue: "Findings of the Association for Computational Linguistics (Findings of ACL), 2023"
+    venue: "Findings of ACL, 2023"
     arXiv: "https://arxiv.org/abs/2305.03973"
     code: "https://github.com/HKUST-KnowComp/DiscoPrompt"
     selected: n
@@ -342,7 +350,7 @@ papers:
 
   - title: "FolkScope: Intention Knowledge Graph Construction for E-commerce Commonsense Discovery"
     authors: "Changlong Yu, Weiqi Wang, <b>Xin Liu</b>, Jiaxin Bai, Yangqiu Song, Zheng Li, Yifan Gao, Tianyu Cao, Bing Yin"
-    venue: "Findings of the Association for Computational Linguistics (Findings of ACL), 2023"
+    venue: "Findings of ACL, 2023"
     arXiv: "https://arxiv.org/abs/2211.08316"
     code: "https://github.com/HKUST-KnowComp/FolkScope"
     selected: y
@@ -360,7 +368,7 @@ papers:
 
   - title: "Complex Hyperbolic Knowledge Graph Embeddings with Fast Fourier Transform"
     authors: "Huiru Xiao, <b>Xin Liu</b>, Yangqiu Song, Ginny Y. Wong, Simon See"
-    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022"
+    venue: "EMNLP, 2022"
     arXiv: "https://arxiv.org/abs/2211.03635"
     code: "https://github.com/HKUST-KnowComp/ComplexHyperbolicKGE"
     selected: n
@@ -369,7 +377,7 @@ papers:
 
   - title: "Boosting Graph Structure Learning with Dummy Nodes"
     authors: "<b>Xin Liu</b>, Jiayang Cheng, Yangqiu Song, Xin Jiang"
-    venue: "International Conference on Machine Learning (ICML), 2022"
+    venue: "ICML, 2022"
     arXiv: "https://arxiv.org/abs/2206.08561"
     code: "https://github.com/HKUST-KnowComp/DummyNode4GraphLearning"
     selected: y
@@ -378,25 +386,25 @@ papers:
 
   - title: "Graph Convolutional Networks with Dual Message Passing for Subgraph Isomorphism Counting and Matching"
     authors: "<b>Xin Liu</b>, Yangqiu Song"
-    venue: "AAAI Conference on Artificial Intelligence (AAAI), 2022"
+    venue: "AAAI, 2022"
     arXiv: "https://arxiv.org/abs/2112.08764"
     code: "https://github.com/HKUST-KnowComp/DualMessagePassing"
-    selected: y
+    selected: n
     ml: y
     nlp: n
 
   - title: "Exploring Discourse Structures for Argument Impact Classification"
     authors: "<b>Xin Liu</b>, Jiefu Ou, Yangqiu Song, Xin Jiang"
-    venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2021"
+    venue: "ACL, 2021"
     arXiv: "https://arxiv.org/abs/2106.00976"
     code: "https://github.com/HKUST-KnowComp/DisCOC"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
   - title: "On the Importance of Word and Sentence Representation Learning in Implicit Discourse Relation Classification"
     authors: "<b>Xin Liu</b>, Jiefu Ou, Yangqiu Song, Xin Jiang"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2020"
+    venue: "IJCAI, 2020"
     arXiv: "https://arxiv.org/abs/2004.12617"
     code: "https://github.com/HKUST-KnowComp/BMGF-RoBERTa"
     selected: n
@@ -405,7 +413,7 @@ papers:
 
   - title: "Neural Subgraph Isomorphism Counting"
     authors: "<b>Xin Liu</b>, Haojie Pan, Mutian He, Yangqiu Song, Xin Jiang, Lifeng Shang"
-    venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2020"
+    venue: "SIGKDD, 2020"
     arXiv: "https://arxiv.org/abs/1912.11589"
     code: "https://github.com/HKUST-KnowComp/NeuralSubgraphCounting"
     selected: y
@@ -414,16 +422,16 @@ papers:
 
   - title: "ASER: A Large-scale Eventuality Knowledge Graph"
     authors: "Hongming Zhang*, <b>Xin Liu</b>*, Haojie Pan*, Yangqiu Song, Cane Wing-Ki Leung"
-    venue: "World Wide Web Conference (WWW), 2020"
+    venue: "WWW, 2020"
     arXiv: "https://arxiv.org/abs/1905.00270"
     code: "https://github.com/HKUST-KnowComp/ASER/tree/release/1.0"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
   - title: "Hyper-Path-Based Representation Learning for Hyper-Networks"
     authors: "Jie Huang, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "ACM International Conference on Information and Knowledge Management (CIKM), 2019"
+    venue: "CIKM, 2019"
     arXiv: "https://arxiv.org/abs/1908.09152"
     code: "https://github.com/HKUST-KnowComp/HPHG"
     selected: n
@@ -432,7 +440,7 @@ papers:
 
   - title: "Relation Discovery with Out-of-Relation Knowledge Base as Supervision"
     authors: "Yan Liang, <b>Xin Liu</b>, Jianwen Zhang, Yangqiu Song"
-    venue: "Conference of the North American Chapter of the Association for Computational Linguistics : Human Language Technologies (NAACL-HLT), 2019"
+    venue: "NAACL, 2019"
     arXiv: "https://arxiv.org/abs/1905.01959"
     code: "https://github.com/HKUST-KnowComp/RE-RegDVAE"
     selected: n
@@ -441,7 +449,7 @@ papers:
 
   - title: "A Variational Approach to Weakly Supervised Document-Level Multi-Aspect Sentiment Classification"
     authors: "Ziqian Zeng, Wenxuan Zhou, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "Conference of the North American Chapter of the Association for Computational Linguistics : Human Language Technologies (NAACL-HLT), 2019"
+    venue: "NAACL, 2019"
     arXiv: "https://arxiv.org/abs/1904.05055"
     code: "https://github.com/HKUST-KnowComp/VWS-DMSC"
     selected: n
@@ -450,7 +458,7 @@ papers:
 
   - title: "Efficient Path Prediction for Semi-Supervised and Weakly Supervised Hierarchical Text Classification"
     authors: "Huiru Xiao, <b>Xin Liu</b>, Yangqiu Song"
-    venue: "World Wide Web Conference (WWW), 2019"
+    venue: "WWW, 2019"
     arXiv: "https://arxiv.org/abs/1902.09347"
     code: "https://github.com/HKUST-KnowComp/PathPredictionForTextClassification"
     selected: n
@@ -459,7 +467,7 @@ papers:
 
   - title: "Biased RandomWalk based Social Regularization for Word Embeddings"
     authors: "Ziqian Zeng*, <b>Xin Liu</b>*, Yangqiu Song"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2018"
+    venue: "IJCAI, 2018"
     paper_pdf: "https://www.ijcai.org/proceedings/2018/0634.pdf"
     code: "https://github.com/HKUST-KnowComp/SRBRW"
     selected: n
