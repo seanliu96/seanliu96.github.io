@@ -1,0 +1,24 @@
+<p><b>Pre-training &amp; Mid-training</b>: Babysitted and delivered two generations of Rufus MoE LLMs from scratch: latest
+  ultra-sparse MoE (3.25% active parameters) matches or exceeds DeepSeek-V3-Base and Kimi-K2-Base on MMLU,
+  MMLU-Pro, Math, and internal shopping benchmarks. Roadmapped data mixture and curriculum strategy across
+  pre-training and mid-training [2024-2025]. Pioneered agentic mid-training with <b>Hephaestus</b> [NAACL’25], a
+  103B-token corpus of 76k+ APIs from API documents and avaliable tool trajectories for mid-training,
+  outperforming open-source base checkpoints at the similar scale and boosting following post-training.</p>
+<p><b>Post-training &amp; Model Release</b>: Led the initial release of four in-house instruct/reasoning/agent models (Dense,
+  MoE, ultra-sparse MoE), improving performance in retrieval augmentation, instruction following, consistency
+  [2023-2024], reasoning, helpfulness, and shopping agent [2025-2026] through systematic exploration of data recipes
+  and training signals (reject sampling, verifiable rewards, reward models, etc.). Built <b>HeaPA</b> [ArXiv: 2601.22448], a difficulty-aware heap sampling and on-policy query augmentation framework for efficient RLVR, where heap
+  sampling provides a more flexible difficulty schedule and query augmentation ensures the diversity of queries and difficulty managed by a tree-based reward aggregation.</p>
+<p><b>Agentic Systems &amp; Reinforcement Learning</b>: Architected the first agentic multimodal shopping environment with
+  visual search and image generation/editing tools for end-to-end RL, with the support of context management
+  [2026]. Designed multi-step <b>tool orchestration rewards</b> after analyzing compositional patterns [ArXiv: 2603.24709], verified in a 100k+ real-API cache environment and achieved 19.9% turn accuracy and 34.2% call
+  accuracy gains on ComplexFuncBench. Worked on <b>DeepPlanner</b> [Findings of ACL’26] for deep research agents via
+  advantage shaping and upweighting (10× fewer training queries than prior SOTA).</p>
+<p><b>Evaluation &amp; Prompting Infrastructure</b>: Designed the first Rufus shopping prompting system using a finite-state
+  machine (A/B testing, routing, task planning, multilingual support) [2023–2024]. Built <b>MultiTurnInstruct</b>
+  [EMNLP’25], a 1.1K-sample multi-turn benchmark across nine instruction-following categories to stress-test LLMs
+  on entangled and conflicting instructions in complex conversations. Worked on several in-house shopping
+  benchmarks for instruction following, consistency, helpfulness, product search agent, and multimodal agent.</p>
+<p><b>Training Infrastructure</b>: Directed mid-training scaling law package to identify optimal data mixture and
+  curriculum schedules [2024–2025]. Extended pre-training and post-training infra <b>NeMo</b>, <b>NeMo-Aligner</b>, <b>verl</b>, and
+  <b>slime</b> with data loading &amp; processing, curriculum, reward services, and agent environment [2023–2026].</p>

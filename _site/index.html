@@ -103,12 +103,12 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href=/index.html#bio>Bio</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#experience>Experience</a></li>
           <li class="navbar-item"><a class="navbar-link" href=/index.html#publications>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href=/index.html#awards>Awards</a></li>
-          <li class="navbar-item"><a class="navbar-link" href=/index.html#experience>Experience</a></li>
           <li class="navbar-item"><a class="navbar-link" href=/index.html#teaching>Teaching</a></li>
-          <li class="navbar-item"><a class="navbar-link" href=/index.html#people>Advisees</a></li>
-          <li class="navbar-item"><a class="navbar-link" href=/assets/CV.pdf target="_blank">CV</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#people>Mentoring</a></li>
+          <!-- <li class="navbar-item"><a class="navbar-link" href= target="_blank">CV</a></li> -->
         </ul>
       </div>
     </nav>
@@ -135,6 +135,126 @@
     and reward design to scalable data synthesis and multi-step tool use. Previously, I worked on graph
     representation learning, knowledge graphs, commonsense reasoning, and session-based recommendation.
   </p>
+</div>
+
+
+<!-- ========== EXPERIENCE ========== -->
+<div class="docs-section" id="experience">
+  <h4><b>Working Experience</b></h4>
+  <div class="tab-content experience-list">
+    
+    
+    <article class="experience-card">
+      <div class="experience-card-header">
+        <div class="experience-card-titles">
+          <span class="experience-role"><b>Senior Applied Scientist</b></span>
+          
+          <span class="experience-category">Fulltime</span>
+          
+        </div>
+        <span class="experience-time">August 2023 - Now</span>
+      </div>
+      <p class="experience-place">Store Foundational AI</p>
+      <p class="experience-topic">Foundational Models for E-commerce</p>
+      <p class="experience-meta"><i>Managers: Qingyu Yin</i></p>
+      
+      <details class="experience-details">
+        <summary class="experience-details-summary">Show details</summary>
+        <div class="experience-details-inner">
+          
+              <p><b>Pre-training &amp; Mid-training</b>: Babysitted and delivered two generations of Rufus MoE LLMs from scratch: latest
+  ultra-sparse MoE (3.25% active parameters) matches or exceeds DeepSeek-V3-Base and Kimi-K2-Base on MMLU,
+  MMLU-Pro, Math, and internal shopping benchmarks. Roadmapped data mixture and curriculum strategy across
+  pre-training and mid-training [2024-2025]. Pioneered agentic mid-training with <b>Hephaestus</b> [NAACL’25], a
+  103B-token corpus of 76k+ APIs from API documents and avaliable tool trajectories for mid-training,
+  outperforming open-source base checkpoints at the similar scale and boosting following post-training.</p>
+<p><b>Post-training &amp; Model Release</b>: Led the initial release of four in-house instruct/reasoning/agent models (Dense,
+  MoE, ultra-sparse MoE), improving performance in retrieval augmentation, instruction following, consistency
+  [2023-2024], reasoning, helpfulness, and shopping agent [2025-2026] through systematic exploration of data recipes
+  and training signals (reject sampling, verifiable rewards, reward models, etc.). Built <b>HeaPA</b> [ArXiv: 2601.22448], a difficulty-aware heap sampling and on-policy query augmentation framework for efficient RLVR, where heap
+  sampling provides a more flexible difficulty schedule and query augmentation ensures the diversity of queries and difficulty managed by a tree-based reward aggregation.</p>
+<p><b>Agentic Systems &amp; Reinforcement Learning</b>: Architected the first agentic multimodal shopping environment with
+  visual search and image generation/editing tools for end-to-end RL, with the support of context management
+  [2026]. Designed multi-step <b>tool orchestration rewards</b> after analyzing compositional patterns [ArXiv: 2603.24709], verified in a 100k+ real-API cache environment and achieved 19.9% turn accuracy and 34.2% call
+  accuracy gains on ComplexFuncBench. Worked on <b>DeepPlanner</b> [Findings of ACL’26] for deep research agents via
+  advantage shaping and upweighting (10× fewer training queries than prior SOTA).</p>
+<p><b>Evaluation &amp; Prompting Infrastructure</b>: Designed the first Rufus shopping prompting system using a finite-state
+  machine (A/B testing, routing, task planning, multilingual support) [2023–2024]. Built <b>MultiTurnInstruct</b>
+  [EMNLP’25], a 1.1K-sample multi-turn benchmark across nine instruction-following categories to stress-test LLMs
+  on entangled and conflicting instructions in complex conversations. Worked on several in-house shopping
+  benchmarks for instruction following, consistency, helpfulness, product search agent, and multimodal agent.</p>
+<p><b>Training Infrastructure</b>: Directed mid-training scaling law package to identify optimal data mixture and
+  curriculum schedules [2024–2025]. Extended pre-training and post-training infra <b>NeMo</b>, <b>NeMo-Aligner</b>, <b>verl</b>, and
+  <b>slime</b> with data loading &amp; processing, curriculum, reward services, and agent environment [2023–2026].</p>
+
+            
+        </div>
+      </details>
+      
+    </article>
+    
+    <article class="experience-card">
+      <div class="experience-card-header">
+        <div class="experience-card-titles">
+          <span class="experience-role"><b>Research Intern</b></span>
+          
+          <span class="experience-category">Internship</span>
+          
+        </div>
+        <span class="experience-time">June 2022 - Dec. 2022</span>
+      </div>
+      <p class="experience-place">Search Query Understanding, Amazon Search (A9)</p>
+      <p class="experience-topic">Commonsense Knowedge Graph and Pattern Mining for E-commerce</p>
+      <p class="experience-meta"><i>Mentors: Zheng Li, Yifan Gao, Jingfeng Yang, Tianyu Cao</i></p>
+      
+      <details class="experience-details">
+        <summary class="experience-details-summary">Show details</summary>
+        <div class="experience-details-inner">
+          
+              <p>Pioneered graph learning for natural language understanding and parsing – implemented the most effective
+  solution to mine important user intent patterns and parse millions of action-item-intention triples to construct
+  commonsense knowledge graphs [ACL’2023] and built the commonsense knowledge graph at Amazon (COSMO)
+  to improve ranking relevance and recommendation quality in Amazon Search and Navigation [SIGMOD’2024].</p>
+<p>Architected session-based recommendation solutions by integrating graph learning – developed the state-of-the-art
+  solution using pattern mining algorithms and memory augmentation to significantly enhance the item-item
+  collaborative filtering graph [NeurIPS’2023].</p>
+
+            
+        </div>
+      </details>
+      
+    </article>
+    
+    <article class="experience-card">
+      <div class="experience-card-header">
+        <div class="experience-card-titles">
+          <span class="experience-role"><b>Research Intern</b></span>
+          
+          <span class="experience-category">Internship</span>
+          
+        </div>
+        <span class="experience-time">June 2017 - Dec. 2017</span>
+      </div>
+      <p class="experience-place">Cloud & Mobile, Microsoft Research Asia</p>
+      <p class="experience-topic">Distributed Graph Database</p>
+      <p class="experience-meta"><i>Mentor: Liang Jeff Chen</i></p>
+      
+      <details class="experience-details">
+        <summary class="experience-details-summary">Show details</summary>
+        <div class="experience-details-inner">
+          
+              <p>Collaborated on the development of a new graph database upon relational databases and non-relational databases,
+  contributing to the open-source project GraphView.</p>
+<p>Focused on translation, compilation, and optimization, leading to the integration of GraphView as a key
+  component of Microsoft Azure.</p>
+
+          
+        </div>
+      </details>
+      
+    </article>
+    
+  </div>
 </div>
 
 <!--- ========== PROJECTS ==========
@@ -3010,35 +3130,6 @@
 </div>
 
 
-<!-- ========== EXPERIENCE ========== -->
-<div class="docs-section" id="experience">
-  <h4><b>Working Experience</b></h4>
-  <div class="tab-content">
-    
-    
-    <div class="experience">
-      <p class="title"><b>Senior Applied Scientist</b> at Store Foundational AI (August 2023 - Now)</p>
-      <p>Foundational Models for E-commerce, <i>Managers: Qingyu Yin</i></p>
-    </div>
-    
-    <div class="experience">
-      <p class="title"><b>Research Intern</b> at Search Query Understanding, Amazon Search (A9) (June 2022 - Dec. 2022)</p>
-      <p>Commonsense Knowedge Graph and Pattern Mining for E-commerce, <i>Mentors: Zheng Li, Yifan Gao, Jingfeng Yang, Tianyu Cao</i></p>
-    </div>
-    
-    <div class="experience">
-      <p class="title"><b>Research Assistant</b> at Knowledge Computation Group, Hong Kong University of Science and Technology (Jan. 2018 - July 2018)</p>
-      <p>Structural Data Representation Learning, <i>Supervisor: Prof. Yangqiu Song</i></p>
-    </div>
-    
-    <div class="experience">
-      <p class="title"><b>Research Intern</b> at Cloud & Mobile, Microsoft Research Asia (June 2017 - Dec. 2017)</p>
-      <p>Distributed Graph Database, <i>Mentor: Liang Jeff Chen</i></p>
-    </div>
-    
-  </div>
-</div>
-
 
 <!-- ========== TEACHING ========== -->
 <div class="docs-section" id="teaching">
@@ -3084,7 +3175,7 @@
 
 <!--- ========== PEOPLE ========== -->
 <div class="docs-section" id="people">
-  <h4><b>Advisees</b></h4>
+  <h4><b>Mentoring</b></h4>
 
 
   <ul class="tab-nav">

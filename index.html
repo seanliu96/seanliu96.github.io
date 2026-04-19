@@ -29,6 +29,46 @@ title: Home
   </p>
 </div>
 
+
+<!-- ========== EXPERIENCE ========== -->
+<div class="docs-section" id="experience">
+  <h4><b>Working Experience</b></h4>
+  <div class="tab-content experience-list">
+    {% assign all_experience = site.data.experience.experience %}
+    {% for experience in all_experience %}
+    <article class="experience-card">
+      <div class="experience-card-header">
+        <div class="experience-card-titles">
+          <span class="experience-role"><b>{{ experience.title }}</b></span>
+          {% if experience.category %}
+          <span class="experience-category">{{ experience.category }}</span>
+          {% endif %}
+        </div>
+        <span class="experience-time">{{ experience.time }}</span>
+      </div>
+      <p class="experience-place">{{ experience.place }}</p>
+      <p class="experience-topic">{{ experience.topic }}</p>
+      <p class="experience-meta"><i>{{ experience.subtitle }}</i></p>
+      {% if experience.details_include %}
+      <details class="experience-details">
+        <summary class="experience-details-summary">Show details</summary>
+        <div class="experience-details-inner">
+          {% case experience.details_include %}
+            {% when 'amazon-rufus' %}
+              {% include experience-details/amazon-rufus.html %}
+            {% when 'amazon-search' %}
+              {% include experience-details/amazon-search.html %}
+            {% when 'msra-system' %}
+              {% include experience-details/msra-system.html %}
+          {% endcase %}
+        </div>
+      </details>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</div>
+
 <!--- ========== PROJECTS ==========
 <h4><b>Recent Research Areas</b></h4>
 
@@ -255,20 +295,6 @@ title: Home
 </div>
 
 
-<!-- ========== EXPERIENCE ========== -->
-<div class="docs-section" id="experience">
-  <h4><b>Working Experience</b></h4>
-  <div class="tab-content">
-    {% assign all_experience = site.data.experience.experience %}
-    {% for experience in all_experience %}
-    <div class="experience">
-      <p class="title"><b>{{ experience.title }}</b> at {{ experience.place }} ({{ experience.time }})</p>
-      <p>{{experience.topic}}, <i>{{experience.subtitle}}</i></p>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
 
 <!-- ========== TEACHING ========== -->
 <div class="docs-section" id="teaching">
@@ -298,7 +324,7 @@ title: Home
 
 <!--- ========== PEOPLE ========== -->
 <div class="docs-section" id="people">
-  <h4><b>Advisees</b></h4>
+  <h4><b>Mentoring</b></h4>
 
 
   <ul class="tab-nav">

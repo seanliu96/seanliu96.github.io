@@ -79,16 +79,129 @@ h4 {
   margin-bottom: 2px
 }
 
-.experience {
-  margin-bottom: 20px
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
-.experience .title {
-  /*text-transform: uppercase; */
+.experience-card {
+  margin: 0;
+  padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background: #fafafa;
+  border-left: 4px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
-.experience p {
-  margin-bottom: 2px
+.experience-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-card-titles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+}
+
+.experience-role {
+  font-size: 1.05em;
+  line-height: 1.35;
+}
+
+.experience-category {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  color: rgba(0, 0, 0, 0.55);
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+}
+
+.experience-time {
+  flex-shrink: 0;
+  font-size: 1.15rem;
+  color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+}
+
+.experience-place {
+  margin-bottom: 0.35rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.experience-topic {
+  margin-bottom: 0.35rem;
+}
+
+.experience-meta {
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.experience-card .experience-details {
+  margin-top: 0.85rem;
+}
+
+.experience-details-summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.55);
+  padding: 0.35rem 0;
+  user-select: none;
+}
+
+.experience-details-summary::-webkit-details-marker {
+  display: none;
+}
+
+.experience-details-summary::before {
+  content: "▸ ";
+  display: inline-block;
+  transition: transform 0.15s ease;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.experience-details[open] .experience-details-summary::before {
+  transform: rotate(90deg);
+}
+
+.experience-details-inner {
+  margin-top: 0.65rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+.experience-details-inner p {
+  margin-bottom: 0.85rem;
+}
+
+.experience-details-inner p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 549px) {
+  .experience-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience-time {
+    white-space: normal;
+  }
 }
 
 .teaching {

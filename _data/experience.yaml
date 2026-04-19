@@ -5,6 +5,7 @@ experience:
   subtitle: "Managers: Qingyu Yin"
   topic: "Foundational Models for E-commerce"
   category: "Fulltime"
+  details_include: amazon-rufus
 
 - title: "Research Intern"
   place: "Search Query Understanding, Amazon Search (A9)"
@@ -12,13 +13,7 @@ experience:
   subtitle: "Mentors: Zheng Li, Yifan Gao, Jingfeng Yang, Tianyu Cao"
   topic: "Commonsense Knowedge Graph and Pattern Mining for E-commerce"
   category: "Internship"
-
-- title: "Research Assistant"
-  place: "Knowledge Computation Group, Hong Kong University of Science and Technology"
-  time: "Jan. 2018 - July 2018"
-  subtitle: "Supervisor: Prof. Yangqiu Song"
-  topic: "Structural Data Representation Learning"
-  category: "Visiting"
+  details_include: amazon-search
 
 - title: "Research Intern"
   place: "Cloud & Mobile, Microsoft Research Asia"
@@ -26,3 +21,4 @@ experience:
   subtitle: "Mentor: Liang Jeff Chen"
   topic: "Distributed Graph Database"
   category: "Internship"
+  details_include: msra-system
