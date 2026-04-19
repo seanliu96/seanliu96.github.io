@@ -1,63 +1,56 @@
 students:
   - name: "Weiqi Wang"
     time: "Fall 2024, 2025"
-    place: "Intern (Amazon)"
+    place: "Intern (Amazon) [E-commerce Planning and Efficient RL with On-policy Data Augmentation]"
     current: "Researcher at Tencent Hunyuan Team"
     category: "former"
     link: https://mighty-weaver.github.io/
     
   - name: "Jiayang Cheng"
     time: "Fall 2025"
-    place: "Intern (Amazon)"
+    place: "Intern (Amazon) [Agentic RL with Orchestration Rewards]"
     current: "Researcher at Alibaba Qwen Team"
     category: "former"
     link: https://jiayangcheng.com/
 
   - name: "Yizhuo Chen"
     time: "Fall 2024"
-    place: "Intern (Amazon)"
+    place: "Intern (Amazon) [Joint Optimization on Summary and Generation Models]"
     current: "PhD@UIUC"
     category: "former"
     link: https://www.linkedin.com/in/yizhuo-chen/
 
   - name: "Chi Han"
     time: "Fall 2024"
-    place: "Intern (Amazon)"
+    place: "Intern (Amazon) [Comprehensive Multi-turn Evaluation]"
     current: "PhD@UIUC"
     category: "former"
     link: https://glaciohound.github.io/
 
-  - name: "Yilun Jin"
-    time: "Fall 2023"
-    place: "Intern (Amazon)"
-    current: "PhD@HKUST"
-    category: "former"
-    link: https://kl4805.github.io/
-
   - name: "Zi-Yuan Hu"
     time: "Spring 2021"
-    place: "Undergraduate Research Assistant (HKUST)"
+    place: "Undergraduate Research Assistant (HKUST) [Graph Representation Learning]"
     current: "PhD@CUHK"
     category: "former"
     link: https://henryhzy.github.io/
 
   - name: "Jie Huang"
     time: "Winter 2020 - Summer 2021"
-    place: "Undergraduate Research Assistant (HKUST)"
+    place: "Undergraduate Research Assistant (HKUST) [Hyper-network Representation Learning]"
     current: "MTSF@xAI"
     category: "former"
     link: https://jeffhj.github.io/
 
   - name: "Jiefu Ou"
     time: "Summer 2019 - Spring 2021"
-    place: "Undergraduate Research Assistant (HKUST)"
+    place: "Undergraduate Research Assistant (HKUST) [Implicit Discourse Representation Learning and Application]"
     current: "PhD@JHU"
     category: "former"
     link: https://jefferyo.github.io/
 
   - name: "Xinran Zhao"
     time: "Summer 2019 - Fall 2020"
-    place: "Undergraduate Research Assistant (HKUST)"
+    place: "Undergraduate Research Assistant (HKUST) [Eventuality Knowledge Graph Representation Learning]"
     current: "PhD@CMU"
     category: "former"
     link: https://colinzhaoust.github.io/

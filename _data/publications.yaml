@@ -1,5 +1,5 @@
 papers:
-  - title: "Learning to optimize multi-objective alignment through dynamic reward weighting"
+  - title: "Learning To Optimize Multi-Objective Alignment Through Dynamic Reward Weighting"
     authors: "Yining Lu, Zilong Wang, Shiyang Li, <b>Xin Liu</b>, Changlong Yu, Qingyu Yin, Zhan Shi, Zixuan Zhang, Meng Jiang"
     venue: "Transactions of the Association for Computational Linguistics, 2026"
     arXiv: "https://arxiv.org/abs/2509.11452"
@@ -8,7 +8,7 @@ papers:
     ml: n
     nlp: y
 
-  - title: "Leveraging historical information to boost retrieval-augmented generation in conversations"
+  - title: "Leveraging Historical Information To Boost Retrieval-Augmented Generation In Conversations"
     authors: "Fengran Mo, Yifan Gao, Zhuofeng Wu, <b>Xin Liu</b>, Pei Chen, Zheng Li, Zhengyang Wang, Xian Li, Meng Jiang, Jian-Yun Nie"
     venue: "Information Processing & Management, 2026"
     paper_pdf: "https://www.sciencedirect.com/science/article/pii/S0306457325003905"
@@ -16,7 +16,7 @@ papers:
     ml: n
     nlp: y
 
-  - title: "Webcoach: Self-evolving web agents with cross-session memory guidance"
+  - title: "WebCoach: Self-Evolving Web Agents With Cross-session Memory Guidance"
     authors: "Genglin Liu, Shijie Geng, Sha Li, Hejie Cui, Sarah Zhang, <b>Xin Liu</b>, Tianyi Liu"
     venue: "ICLR MemAgents Workshop, 2026"
     arXiv: "https://arxiv.org/abs/2511.12997"
@@ -37,14 +37,33 @@ papers:
     authors: "Jiayang Cheng, <b>Xin Liu</b>, Zhihan Zhang, Haoyang Wen, Zixuan Zhang, Qingyu Yin, Shiyang Li, Priyanka Nigam, Bing Yin, Chao Zhang, Yangqiu Song"
     venue: "ArXiv preprint, 2026"
     arXiv: "https://arxiv.org/abs/2603.24709"
+    code: "https://github.com/horizon-rl/ToolOrchestrationReward"
+    selected: y
+    ml: n
+    nlp: y
+
+  - title: "DeepPlanner: Scaling Planning Capability for Deep Research Agents via Advantage Shaping"
+    authors: "Wei Fan, Wenlin Yao, Zheng Li, Feng Yao, <b>Xin Liu</b>, Liang Qiu, Qingyu Yin, Yangqiu Song, Bing Yin"
+    venue: "Findings of ACL, 2026"
+    arXiv: "https://arxiv.org/abs/2510.12979"
+    code: "https://github.com/AlexFanw/DeepPlanner"
     selected: y
     ml: n
     nlp: y
 
   - title: "Agentic Conversational Search with Contextualized Reasoning via Reinforcement Learning"
     authors: "Fengran Mo, Yifan Gao, Sha Li, Hansi Zeng, <b>Xin Liu</b>, Zhaoxuan Tan, Xian Li, Jianshu Chen, Dakuo Wang, Meng Jiang"
-    venue: "ArXiv preprint, 2026"
+    venue: "Findings of ACL, 2026"
     arXiv: "https://arxiv.org/abs/2601.13115"
+    selected: n
+    ml: n
+    nlp: y
+
+  - title: "SessionIntentBench: A Multi-task Inter-session Intention-shift Modeling Benchmark for E-commerce Customer Behavior Understanding"
+    authors: " Yuqi Yang, Weiqi Wang, Baixuan Xu, Wei Fan, Qing Zong, Chunkit Chan, Zheye Deng, <b>Xin Liu</b>, Yifan Gao, Changlong Yu, others"
+    venue: "Findings of ACL, 2026"
+    arXiv: "https://arxiv.org/abs/2510.12979"
+    code: "https://github.com/AlexFanw/DeepPlanner"
     selected: n
     ml: n
     nlp: y
@@ -53,7 +72,7 @@ papers:
     authors: "Liming Liu, Binxuan Huang, <b>Xin Liu</b>, Bing Yin, Tuo Zhao"
     venue: "ArXiv preprint, 2026"
     arXiv: "https://arxiv.org/abs/2601.06428"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
@@ -74,18 +93,9 @@ papers:
     ml: n
     nlp: y
 
-  - title: "DeepPlanner: Scaling Planning Capability for Deep Research Agents via Advantage Shaping"
-    authors: "Wei Fan, Wenlin Yao, Zheng Li, Feng Yao, <b>Xin Liu</b>, Liang Qiu, Qingyu Yin, Yangqiu Song, Bing Yin"
-    venue: "ArXiv preprint, 2025"
-    arXiv: "https://arxiv.org/abs/2510.12979"
-    code: "https://github.com/AlexFanw/DeepPlanner"
-    selected: y
-    ml: n
-    nlp: y
-
   - title: "Think-RM: Enabling long-horizon reasoning in generative reward models"
     authors: "Ilgee Hong, Changlong Yu, Liang Qiu, Weixiang Yan, Zhenghao Xu, Haoming Jiang, Qingru Zhang, Qin Lu, <b>Xin Liu</b>, Chao Zhang, others"
-    venue: "ICML, 2025"
+    venue: "NeurIPS, 2025"
     arXiv: "https://arxiv.org/abs/2505.16265"
     selected: y
     ml: n
@@ -108,7 +118,7 @@ papers:
     ml: n
     nlp: y
 
-  - title: "Uniconv: Unifying retrieval and response generation for large language models in conversations"
+  - title: "Uniconv: Unifying Retrieval And Response Generation For Large Language Models In Conversations"
     authors: "Fengran Mo, Yifan Gao, Chuan Meng, <b>Xin Liu</b>, Zhuofeng Wu, Kelong Mao, Zhengyang Wang, Pei Chen, Zheng Li, Xian Li, others"
     venue: "ACL, 2025"
     arXiv: "https://arxiv.org/abs/2507.07030"
@@ -170,7 +180,7 @@ papers:
 
   - title: "On the role of entity and event level conceptualization in generalizable reasoning: A survey of tasks, methods, applications, and future directions"
     authors: "Weiqi Wang, Tianqing Fang, Haochen Shi, Baixuan Xu, Wenxuan Ding, Liyu Zhang, Wei Fan, Jiaxin Bai, Haoran Li, <b>Xin Liu</b>, others"
-    venue: "ArXiv preprint, 2024"
+    venue: "Findings of EMNLP, 2025"
     arXiv: "https://arxiv.org/abs/2406.10885"
     selected: n
     ml: n
@@ -239,7 +249,7 @@ papers:
     venue: "Findings of NAACL, 2024"
     arXiv: "https://arxiv.org/abs/2311.09174"
     code: "https://github.com/HKUST-KnowComp/AbsPyramid"
-    selected: y
+    selected: n
     ml: n
     nlp: y
 
@@ -260,7 +270,7 @@ papers:
     ml: n
     nlp: y
 
-  - title: "COSMO: A large-scale e-commerce common sense knowledge generation and serving system at Amazon"
+  - title: "COSMO: A Large-Scale E-commerce Common Sense Knowledge Generation and Serving System at Amazon"
     authors: "Changlong Yu*, <b>Xin Liu</b>*, Jefferson Maia, Tianyu Cao, Laurence (Yang) Li, Yifan Gao, Yangqiu Song, Rahul Goutam, Haiyang Zhang, Bing Yin, Zheng Li*"
     venue: "SIGMOD, 2024"
     link: "https://www.amazon.science/publications/cosmo-a-large-scale-e-commerce-common-sense-knowledge-generation-and-serving-system-at-amazon"
@@ -321,7 +331,7 @@ papers:
     ml: n
     nlp: y
 
-  - title: "Spatio-Temporal Contrastive Learning Enhanced GNNs for Session-based Recommendation"
+  - title: "Spatio-Temporal Contrastive Learning-enhanced GNNs for Session-based Recommendation"
     authors: "Zhongwei Wan, <b>Xin Liu</b>, Benyou Wang, Jiezhong Qiu, Boyu Li, Ting Guo, Guangyong Chen, Yang Wang"
     venue: "ACM Transactions on Information Systems, 2023"
     arXiv: "https://arxiv.org/abs/2209.11461"
