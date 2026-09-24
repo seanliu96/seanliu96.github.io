@@ -1,4 +1,11 @@
 students:
+  - name: "Zhuofeng Li"
+    time: "Fall 2026"
+    place: "Intern (Amazon) [Multi-agent Orchestration in Reasoning and Agentic Tasks]"
+    current: "PhD@TAMU"
+    category: "former"
+    link: https://zhuofeng-li.github.io/
+
   - name: "Weiqi Wang"
     time: "Fall 2024, 2025"
     place: "Intern (Amazon) [E-commerce Planning and Efficient RL with On-policy Data Augmentation]"
