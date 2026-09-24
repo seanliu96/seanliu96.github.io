@@ -9,12 +9,15 @@ title: Home
 <div class="docs-section" id="bio">
   <h4><b>Bio</b></h4>
   <p>
-    I am a Senior Applied Scientist at Store Foundational AI - Rufus, Amazon, where I work on end-to-end foundation
-    model development for generative AI shopping — spanning pretraining, midtraining, post-training, and agentic
-    reinforcement learning. I led data recipes and curriculum strategies for in-house MoE model pretraining and 
-    midtraining in 2024--2025, and served as the primary tech lead for instruct, reasoning, and agent model releases in 2023--2026.
-    My current research focuses on efficient RL &amp; agentic RL,
-    including on-policy data augmentation, multi-step tool orchestration, and multimodal agents.
+    I am a Member of Technical Staff in Research at Fireworks AI, where I work on intelligence customization,
+    in particular focusing on efficient reasoning and agentic capabilities.
+  </p>
+  <p>
+    Previously, I was a Senior Applied Scientist at Store Foundational AI - Rufus, Amazon, working on end-to-end
+    foundation model development for generative AI shopping. I led data recipes and curriculum strategies for
+    in-house MoE model pretraining and midtraining, and served as a primary tech lead for instruct, reasoning, and
+    agent model releases. My work spanned efficient and agentic reinforcement learning, on-policy data augmentation,
+    multi-step tool orchestration, and multimodal agents.
   </p>
   <p>
     I obtained my Ph.D. in Computer Science from the Hong Kong University of Science and Technology in July 2023,
@@ -54,6 +57,8 @@ title: Home
         <summary class="experience-details-summary">Show details</summary>
         <div class="experience-details-inner">
           {% case experience.details_include %}
+            {% when 'fireworks' %}
+              {% include experience-details/fireworks.html %}
             {% when 'amazon-rufus' %}
               {% include experience-details/amazon-rufus.html %}
             {% when 'amazon-search' %}
@@ -66,6 +71,28 @@ title: Home
       {% endif %}
     </article>
     {% endfor %}
+  </div>
+</div>
+
+<!-- ========== BLOG ========== -->
+<div class="docs-section" id="blog">
+  <h4><b>Blog Posts</b></h4>
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#blog-general-post-training">General Post-training</div></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="blog-general-post-training">
+      {% assign blogs = site.data.blogs.blogs | where: "category", "general-post-training" %}
+      {% for blog in blogs %}
+      <div class="paper">
+        <p class="title"><b>{{ blog.title }}</b>
+          <a class="button" href="{{ blog.url }}" target="_blank" rel="noopener noreferrer">Blog</a>
+        </p>
+        <p>{{ blog.summary }}</p>
+        <p><i>{{ blog.publisher }}, {{ blog.date }}</i></p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 

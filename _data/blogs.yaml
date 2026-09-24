@@ -1,0 +1,7 @@
+blogs:
+- title: "Introducing Ember-1"
+  category: "general-post-training"
+  publisher: "Fireworks AI"
+  date: "September 23, 2026"
+  url: "https://fireworks.ai/blog/ember-1"
+  summary: "Fireworks Research's first branded model learns to reason more concisely, matching Kimi K3 quality while using roughly 40% fewer tokens across benchmarks, live customer A/B tests, and internal workloads."

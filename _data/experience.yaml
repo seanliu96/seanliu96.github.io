@@ -1,7 +1,15 @@
 experience:
-- title: "Senior Applied Scientist"
-  place: "Store Foundational AI"
-  time: "August 2023 - Now"
+- title: "Member of Technical Staff"
+  place: "Fireworks AI"
+  time: "August 2026 - Present"
+  subtitle: "Manager: Pawel Garbacki"
+  topic: "Exploration and Exploitation"
+  category: "Fulltime"
+  details_include: fireworks
+
+- title: "Applied Scientist II → Senior Applied Scientist"
+  place: "Store Foundational AI - Rufus, Amazon"
+  time: "September 2023 - August 2026"
   subtitle: "Managers: Qingyu Yin"
   topic: "Foundational Models for E-commerce"
   category: "Fulltime"
